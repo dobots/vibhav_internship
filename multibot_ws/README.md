@@ -2,6 +2,7 @@
 
 ## Current status
 The following are implemented at the moment:-
+
 1. Spawning of the URDF robot onto a predefined world on gazebo. To launch it, use:-
 ```bash
 roslaunch mb_gazebo mb_arena.launch
