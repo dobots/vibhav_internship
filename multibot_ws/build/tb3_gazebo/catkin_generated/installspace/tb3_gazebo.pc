@@ -1,0 +1,8 @@
+prefix=/home/vibhav/multibot_ws/install
+
+Name: tb3_gazebo
+Description: Description of tb3_gazebo
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

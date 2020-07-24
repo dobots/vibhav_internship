@@ -1,0 +1,8 @@
+prefix=/home/vibhav/multibot_ws/devel
+
+Name: mb_gazebo
+Description: Description of mb_gazebo
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

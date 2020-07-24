@@ -1,0 +1,2 @@
+mb_control:mb_description:mb_gazebo:mb_localization
+-DCATKIN_DEVEL_PREFIX=/home/vibhav/multibot_ws/devel -DCMAKE_INSTALL_PREFIX=/home/vibhav/multibot_ws/install -G Unix Makefiles
