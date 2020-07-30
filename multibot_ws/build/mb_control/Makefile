@@ -68,6 +68,18 @@ install/strip/fast: preinstall/fast
 	/usr/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
 .PHONY : install/strip/fast
 
+# Special rule for the target install
+install: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
+	/usr/bin/cmake -P cmake_install.cmake
+.PHONY : install
+
+# Special rule for the target install
+install/fast: preinstall/fast
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
+	/usr/bin/cmake -P cmake_install.cmake
+.PHONY : install/fast
+
 # Special rule for the target install/local
 install/local: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
@@ -123,18 +135,6 @@ rebuild_cache/fast: rebuild_cache
 
 .PHONY : rebuild_cache/fast
 
-# Special rule for the target install
-install: preinstall
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
-	/usr/bin/cmake -P cmake_install.cmake
-.PHONY : install
-
-# Special rule for the target install
-install/fast: preinstall/fast
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
-	/usr/bin/cmake -P cmake_install.cmake
-.PHONY : install/fast
-
 # The main all target
 all: cmake_check_build_system
 	cd /home/vibhav/multibot_ws/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/vibhav/multibot_ws/build/CMakeFiles /home/vibhav/multibot_ws/build/mb_control/CMakeFiles/progress.marks
@@ -168,6 +168,21 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
+mb_control/CMakeFiles/autonomous_control_node.dir/rule:
+	cd /home/vibhav/multibot_ws/build && $(MAKE) -f CMakeFiles/Makefile2 mb_control/CMakeFiles/autonomous_control_node.dir/rule
+.PHONY : mb_control/CMakeFiles/autonomous_control_node.dir/rule
+
+# Convenience name for target.
+autonomous_control_node: mb_control/CMakeFiles/autonomous_control_node.dir/rule
+
+.PHONY : autonomous_control_node
+
+# fast build rule for target.
+autonomous_control_node/fast:
+	cd /home/vibhav/multibot_ws/build && $(MAKE) -f mb_control/CMakeFiles/autonomous_control_node.dir/build.make mb_control/CMakeFiles/autonomous_control_node.dir/build
+.PHONY : autonomous_control_node/fast
+
+# Convenience name for target.
 mb_control/CMakeFiles/keyboard_control_node.dir/rule:
 	cd /home/vibhav/multibot_ws/build && $(MAKE) -f CMakeFiles/Makefile2 mb_control/CMakeFiles/keyboard_control_node.dir/rule
 .PHONY : mb_control/CMakeFiles/keyboard_control_node.dir/rule
@@ -181,6 +196,33 @@ keyboard_control_node: mb_control/CMakeFiles/keyboard_control_node.dir/rule
 keyboard_control_node/fast:
 	cd /home/vibhav/multibot_ws/build && $(MAKE) -f mb_control/CMakeFiles/keyboard_control_node.dir/build.make mb_control/CMakeFiles/keyboard_control_node.dir/build
 .PHONY : keyboard_control_node/fast
+
+src/autonomous_control_node.o: src/autonomous_control_node.cpp.o
+
+.PHONY : src/autonomous_control_node.o
+
+# target to build an object file
+src/autonomous_control_node.cpp.o:
+	cd /home/vibhav/multibot_ws/build && $(MAKE) -f mb_control/CMakeFiles/autonomous_control_node.dir/build.make mb_control/CMakeFiles/autonomous_control_node.dir/src/autonomous_control_node.cpp.o
+.PHONY : src/autonomous_control_node.cpp.o
+
+src/autonomous_control_node.i: src/autonomous_control_node.cpp.i
+
+.PHONY : src/autonomous_control_node.i
+
+# target to preprocess a source file
+src/autonomous_control_node.cpp.i:
+	cd /home/vibhav/multibot_ws/build && $(MAKE) -f mb_control/CMakeFiles/autonomous_control_node.dir/build.make mb_control/CMakeFiles/autonomous_control_node.dir/src/autonomous_control_node.cpp.i
+.PHONY : src/autonomous_control_node.cpp.i
+
+src/autonomous_control_node.s: src/autonomous_control_node.cpp.s
+
+.PHONY : src/autonomous_control_node.s
+
+# target to generate assembly for a file
+src/autonomous_control_node.cpp.s:
+	cd /home/vibhav/multibot_ws/build && $(MAKE) -f mb_control/CMakeFiles/autonomous_control_node.dir/build.make mb_control/CMakeFiles/autonomous_control_node.dir/src/autonomous_control_node.cpp.s
+.PHONY : src/autonomous_control_node.cpp.s
 
 src/keyboard_control_node.o: src/keyboard_control_node.cpp.o
 
@@ -216,13 +258,17 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... install/strip"
+	@echo "... install"
+	@echo "... autonomous_control_node"
+	@echo "... keyboard_control_node"
 	@echo "... install/local"
 	@echo "... test"
 	@echo "... list_install_components"
-	@echo "... keyboard_control_node"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... install"
+	@echo "... src/autonomous_control_node.o"
+	@echo "... src/autonomous_control_node.i"
+	@echo "... src/autonomous_control_node.s"
 	@echo "... src/keyboard_control_node.o"
 	@echo "... src/keyboard_control_node.i"
 	@echo "... src/keyboard_control_node.s"

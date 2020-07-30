@@ -9,8 +9,10 @@ project(mb_control)
 ## is used, also find other catkin packages
 find_package(catkin REQUIRED COMPONENTS
   geometry_msgs
+  sensor_msgs
   roscpp
   std_msgs
+  
 )
 
 ## System dependencies are found with CMake's conventions
@@ -134,6 +136,8 @@ include_directories(
 ## With catkin_make all packages are built within a single CMake context
 ## The recommended prefix ensures that target names across packages don't collide
 add_executable(keyboard_control_node src/keyboard_control_node.cpp)
+add_executable(autonomous_control_node src/autonomous_control_node.cpp)
+#add_executable(pcl_obstacle_detector src/pcl_obstacle_detector.cpp)
 
 ## Rename C++ executable without prefix
 ## The above recommended prefix causes long target names, the following renames the
@@ -151,8 +155,12 @@ add_executable(keyboard_control_node src/keyboard_control_node.cpp)
 # )
 
 target_link_libraries(keyboard_control_node ${catkin_LIBRARIES})
+target_link_libraries(autonomous_control_node ${catkin_LIBRARIES})
+#target_link_libraries(pcl_obstacle_detector ${catkin_LIBRARIES})
 
 add_dependencies(keyboard_control_node ${catkin_EXPORTED_TARGETS})
+add_dependencies(autonomous_control_node ${catkin_EXPORTED_TARGETS})
+#add_dependencies(pcl_obstacle_detector ${catkin_EXPORTED_TARGETS})
 
 #############
 ## Install ##

@@ -135,6 +135,7 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   include("/home/vibhav/multibot_ws/build/mb_control/cmake_install.cmake")
   include("/home/vibhav/multibot_ws/build/mb_gazebo/cmake_install.cmake")
   include("/home/vibhav/multibot_ws/build/mb_description/cmake_install.cmake")
+  include("/home/vibhav/multibot_ws/build/mb_navigation/cmake_install.cmake")
 
 endif()
 

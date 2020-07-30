@@ -290,11 +290,23 @@ actionlib_DIR:PATH=/opt/ros/melodic/share/actionlib/cmake
 //The directory containing a CMake configuration file for actionlib_msgs.
 actionlib_msgs_DIR:PATH=/opt/ros/melodic/share/actionlib_msgs/cmake
 
+//The directory containing a CMake configuration file for angles.
+angles_DIR:PATH=/opt/ros/melodic/share/angles/cmake
+
+//The directory containing a CMake configuration file for base_local_planner.
+base_local_planner_DIR:PATH=/opt/ros/melodic/share/base_local_planner/cmake
+
 //The directory containing a CMake configuration file for catkin.
 catkin_DIR:PATH=/opt/ros/melodic/share/catkin/cmake
 
 //The directory containing a CMake configuration file for class_loader.
 class_loader_DIR:PATH=/opt/ros/melodic/share/class_loader/cmake
+
+//The directory containing a CMake configuration file for costmap_2d.
+costmap_2d_DIR:PATH=/opt/ros/melodic/share/costmap_2d/cmake
+
+//The directory containing a CMake configuration file for costmap_converter.
+costmap_converter_DIR:PATH=/opt/ros/melodic/share/costmap_converter/cmake
 
 //The directory containing a CMake configuration file for cpp_common.
 cpp_common_DIR:PATH=/opt/ros/melodic/share/cpp_common/cmake
@@ -328,6 +340,9 @@ genpy_DIR:PATH=/opt/ros/melodic/share/genpy/cmake
 
 //The directory containing a CMake configuration file for geometry_msgs.
 geometry_msgs_DIR:PATH=/opt/ros/melodic/share/geometry_msgs/cmake
+
+//The directory containing a CMake configuration file for global_planner.
+global_planner_DIR:PATH=/opt/ros/melodic/share/global_planner/cmake
 
 //Value Computed by CMake
 gmock_BINARY_DIR:STATIC=/home/vibhav/multibot_ws/build/gtest/googlemock
@@ -393,6 +408,9 @@ hector_nav_msgs_DIR:PATH=/opt/ros/melodic/share/hector_nav_msgs/cmake
 //The directory containing a CMake configuration file for hector_trajectory_server.
 hector_trajectory_server_DIR:PATH=/opt/ros/melodic/share/hector_trajectory_server/cmake
 
+//The directory containing a CMake configuration file for interactive_markers.
+interactive_markers_DIR:PATH=/opt/ros/melodic/share/interactive_markers/cmake
+
 //The directory containing a CMake configuration file for joy.
 joy_DIR:PATH=joy_DIR-NOTFOUND
 
@@ -403,7 +421,10 @@ kdl_conversions_DIR:PATH=/opt/ros/melodic/share/kdl_conversions/cmake
 laser_geometry_DIR:PATH=/opt/ros/melodic/share/laser_geometry/cmake
 
 //Path to a library.
-lib:FILEPATH=/opt/ros/melodic/lib/libxmlrpcpp.so
+lib:FILEPATH=/opt/ros/melodic/lib/libinteractive_markers.so
+
+//The directory containing a CMake configuration file for map_msgs.
+map_msgs_DIR:PATH=/opt/ros/melodic/share/map_msgs/cmake
 
 //Value Computed by CMake
 mb_control_BINARY_DIR:STATIC=/home/vibhav/multibot_ws/build/mb_control
@@ -429,6 +450,12 @@ mb_localization_BINARY_DIR:STATIC=/home/vibhav/multibot_ws/build/mb_localization
 //Value Computed by CMake
 mb_localization_SOURCE_DIR:STATIC=/home/vibhav/multibot_ws/src/mb_localization
 
+//Value Computed by CMake
+mb_navigation_BINARY_DIR:STATIC=/home/vibhav/multibot_ws/build/mb_navigation
+
+//Value Computed by CMake
+mb_navigation_SOURCE_DIR:STATIC=/home/vibhav/multibot_ws/src/mb_navigation
+
 //The directory containing a CMake configuration file for message_filters.
 message_filters_DIR:PATH=/opt/ros/melodic/share/message_filters/cmake
 
@@ -438,8 +465,20 @@ message_generation_DIR:PATH=/opt/ros/melodic/share/message_generation/cmake
 //The directory containing a CMake configuration file for message_runtime.
 message_runtime_DIR:PATH=/opt/ros/melodic/share/message_runtime/cmake
 
+//The directory containing a CMake configuration file for move_base.
+move_base_DIR:PATH=/opt/ros/melodic/share/move_base/cmake
+
+//The directory containing a CMake configuration file for move_base_msgs.
+move_base_msgs_DIR:PATH=/opt/ros/melodic/share/move_base_msgs/cmake
+
+//The directory containing a CMake configuration file for nav_core.
+nav_core_DIR:PATH=/opt/ros/melodic/share/nav_core/cmake
+
 //The directory containing a CMake configuration file for nav_msgs.
 nav_msgs_DIR:PATH=/opt/ros/melodic/share/nav_msgs/cmake
+
+//The directory containing a CMake configuration file for navfn.
+navfn_DIR:PATH=/opt/ros/melodic/share/navfn/cmake
 
 //The directory containing a CMake configuration file for pluginlib.
 pluginlib_DIR:PATH=/opt/ros/melodic/share/pluginlib/cmake
@@ -501,6 +540,9 @@ tb3_gazebo_BINARY_DIR:STATIC=/home/vibhav/multibot_ws/build/mb_gazebo
 //Value Computed by CMake
 tb3_gazebo_SOURCE_DIR:STATIC=/home/vibhav/multibot_ws/src/mb_gazebo
 
+//The directory containing a CMake configuration file for teb_local_planner.
+teb_local_planner_DIR:PATH=/opt/ros/melodic/share/teb_local_planner/cmake
+
 //The directory containing a CMake configuration file for tf2.
 tf2_DIR:PATH=/opt/ros/melodic/share/tf2/cmake
 
@@ -527,6 +569,9 @@ urdf_DIR:PATH=/opt/ros/melodic/share/urdf/cmake
 
 //The directory containing a CMake configuration file for visualization_msgs.
 visualization_msgs_DIR:PATH=/opt/ros/melodic/share/visualization_msgs/cmake
+
+//The directory containing a CMake configuration file for voxel_grid.
+voxel_grid_DIR:PATH=/opt/ros/melodic/share/voxel_grid/cmake
 
 //The directory containing a CMake configuration file for xmlrpcpp.
 xmlrpcpp_DIR:PATH=/opt/ros/melodic/share/xmlrpcpp/cmake
@@ -641,7 +686,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=8
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=9
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP
