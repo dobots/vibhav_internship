@@ -3,9 +3,9 @@ version= "1.0" ?>
 <robot name= "turtlebot3_waffle_sim" xmlns:xacro="http://ros.org/wiki/xacro" >
 	<gazebo>
 		<plugin name= "turtlebot3_waffle_controller" filename="libgazebo_ros_diff_drive.so" >
-			<!-- <commandTopic> cmd_vel </commandTopic> --> 	<!--original -->
+			<commandTopic> cmd_vel </commandTopic> 	<!--original (To use with navigation stack)-->
 			<!-- <commandTopic> /turtle1/cmd_vel </commandTopic> --> <!-- to use with "turtlesim turtle_teleop_key" node -->
-			<commandTopic> mod_cmd_vel </commandTopic> 
+			<!-- commandTopic> mod_cmd_vel </commandTopic> --> <!-- To use with key_board_simulator -->
 			<odometryTopic> odom </odometryTopic>
 			<odometryFrame> odom </odometryFrame>
 			<odometrySource> world </odometrySource>
