@@ -32,3 +32,8 @@ To launch this and localise using gmapping, use:-
 ```bash 
 roslaunch mb_navigation nav_tut_gmapping.launch
 ```
+
+To launch autonomous agent exploration in a map, launch:- 
+```bash
+roslaunch mb_navigation autexpl_gmapping.launch
+```
