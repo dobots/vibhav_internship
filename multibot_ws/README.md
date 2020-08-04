@@ -37,3 +37,8 @@ To launch autonomous agent exploration in a map, launch:-
 ```bash
 roslaunch mb_navigation autexpl_gmapping.launch
 ```
+
+To launch spawning of 2 agents in a map, launch:- 
+```bash
+roslaunch multi_robot multirobot_arena.launch
+```
