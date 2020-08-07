@@ -40,5 +40,10 @@ roslaunch mb_navigation autexpl_gmapping.launch
 
 To launch spawning of 2 agents in a map, launch:- 
 ```bash
-roslaunch multi_robot multirobot_arena.launch
+roslaunch multi_robot multirobot_arena_v2.launch
+```
+
+To launch spawning of 2 agents with a navigation stack in map and localised by amcl, launch:- 
+```bash
+roslaunch multi_robot multinavrobot_arena.launch
 ```
