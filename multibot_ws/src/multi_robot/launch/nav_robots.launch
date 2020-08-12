@@ -3,9 +3,9 @@
   <!-- <param name="/use_sim_time" value="true"/> -->  <!-- When used, the map does not appear -->
 
   <!-- Run the map server -->
-   <node name="map_server" pkg="map_server" type="map_server" args="$(find mb_gazebo)/maps/arena_gmapping.yaml" >
-     <param name="frame_id" value="/map" />  <!-- value=/map or map makes no difference--> 
-   </node>
+ <node name="map_server" pkg="map_server" type="map_server" args="$(find mb_gazebo)/maps/arena_gmapping.yaml" > 
+     <param name="frame_id" value="/map" /> <!-- value=/map or map makes no difference--> 
+  </node> 
    	<!-- <node pkg="robot_state_publisher" type="robot_state_publisher" name="robot_state_publisher">
 		<param name="publish_frequency" value="30.0"/>
 	</node>
@@ -21,15 +21,16 @@
 
   <!-- Robot Properties -->
   <!-- AMCL -->
-  <!-- <include file="$(find multi_robot)/launch/amcl_robot1.launch" /> -->
-  <!-- <include file="$(find multi_robot)/launch/amcl_robot2.launch" /> -->
+  <include file="$(find multi_robot)/launch/amcl_robot1.launch" />
+  <include file="$(find multi_robot)/launch/amcl_robot2.launch" />
 
   <!-- Move Base -->
   <!-- <include file="$(find multi_robot)/launch/move_base1.launch" /> -->
   <!-- <include file="$(find multi_robot)/launch/move_base2.launch" /> -->
 
   <param name="robot_description" command="$(find xacro)/xacro --inorder $(find mb_description)/urdf/turtlebot3_waffle_base.urdf.xacro" />
-
+  <!-- <include file="$(find multi_robot)/launch/hector_slam.launch" /> -->
+  <!-- <include file="$(find multi_robot)/launch/gmapping.launch" /> -->
   <!-- BEGIN ROBOT 1-->
   <group ns="robot1">
     <param name="tf_prefix" value="robot1_tf" />
@@ -38,19 +39,20 @@
       <arg name="robot_name"  value="Robot1" />
     </include>
     <include file="$(find multi_robot)/launch/move_base.launch" />
-    <include file="$(find mb_localization)/launch/hector_slam.launch" />
+    <!-- <include file="$(find multi_robot)/launch/amcl.launch" /> -->
+    <!-- <include file="$(find multi_robot)/launch/gmapping.launch" /> -->
   </group>
 
   <!-- BEGIN ROBOT 2-->
-  <group ns="robot2">
+   <group ns="robot2">
     <param name="tf_prefix" value="robot2_tf" />
     <include file="$(find multi_robot)/launch/one_robot.launch" >
       <arg name="init_pose" value="-x -1 -y 1 -z 0" />
       <arg name="robot_name"  value="Robot2" />
     </include>
     <include file="$(find multi_robot)/launch/move_base.launch" />
-    <include file="$(find mb_localization)/launch/hector_slam.launch" />
-  </group> 
+    <!-- <include file="$(find multi_robot)/launch/hector_slam.launch" /> -->
+  </group>
 
   <!-- <group ns="robot1">
     <param name="tf_prefix" value="robot1_tf" />

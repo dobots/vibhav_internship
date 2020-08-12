@@ -12,6 +12,6 @@
 	<rosparam file="$(find mb_navigation)/cfg/costmap_converter_params.yaml" command="load" />
 	<rosparam file="$(find mb_navigation)/cfg/move_base_params.yaml" command="load"/>
 	
-	<!-- <remap from="map" to="/map" /> -->
+	<remap from="map" to="/map" />
 </node>
 </launch>

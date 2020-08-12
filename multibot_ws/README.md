@@ -45,5 +45,6 @@ roslaunch multi_robot multirobot_arena_v2.launch
 
 To launch spawning of 2 agents with a navigation stack in map and localised by amcl, launch:- 
 ```bash
-roslaunch multi_robot multinavrobot_arena.launch
+roslaunch multi_robot multiexplrobot_arena.launch
 ```
+
