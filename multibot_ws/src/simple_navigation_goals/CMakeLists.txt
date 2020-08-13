@@ -156,6 +156,15 @@ target_link_libraries(simple_navigation_goals ${catkin_LIBRARIES})
 add_executable(simple_navigation_goals_periodic src/simple_navigation_goals_periodic.cpp)
 target_link_libraries(simple_navigation_goals_periodic ${catkin_LIBRARIES})
 
+add_executable(simple_navigation_goals_periodic_multibot src/simple_navigation_goals_periodic_multibot.cpp)
+target_link_libraries(simple_navigation_goals_periodic_multibot ${catkin_LIBRARIES})
+
+add_executable(simple_navigation_goals_periodic_robot1 src/simple_navigation_goals_periodic_robot1.cpp)
+target_link_libraries(simple_navigation_goals_periodic_robot1 ${catkin_LIBRARIES})
+
+add_executable(simple_navigation_goals_periodic_robot2 src/simple_navigation_goals_periodic_robot2.cpp)
+target_link_libraries(simple_navigation_goals_periodic_robot2 ${catkin_LIBRARIES})
+
 #############
 ## Install ##
 #############

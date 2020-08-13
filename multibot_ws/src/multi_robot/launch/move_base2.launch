@@ -10,8 +10,8 @@
 <node pkg="move_base" type="move_base" respawn="false" name="move_base2" output="screen">
 	<param name="base_local_planner" value="teb_local_planner/TebLocalPlannerROS"/>
 	<param name="base_global_planner" value="global_planner/GlobalPlanner"/>
-	<rosparam file="$(find mb_navigation)/cfg/costmap_common_params.yaml" command="load" ns="global_costmap" />
-	<rosparam file="$(find mb_navigation)/cfg/costmap_common_params.yaml" command="load" ns="local_costmap" />
+	<rosparam file="$(find mb_navigation)/cfg/costmap_common_params_robot2.yaml" command="load" ns="global_costmap" />
+	<rosparam file="$(find mb_navigation)/cfg/costmap_common_params_robot2.yaml" command="load" ns="local_costmap" />
 	<rosparam file="$(find mb_navigation)/cfg/global_costmap_params.yaml" command="load" />
 	<rosparam file="$(find mb_navigation)/cfg/local_costmap_params.yaml" command="load" />
 	<rosparam file="$(find mb_navigation)/cfg/global_planner_params.yaml" command="load" />
@@ -24,10 +24,12 @@
 	<param name="local_costmap/global_frame" value="$(arg odom_frame_id)" />
 	<param name="local_costmap/robot_base_frame" value="$(arg base_frame_id)" />
 	
+	<param name="scan_topic" value="$(arg laser_topic)"/>
+
 	<remap from="cmd_vel" to="/robot2/cmd_vel" />
 	<remap from="odom" to="$(arg odom_topic)" />
-	<remap from="odom" to="$(arg laser_topic)" />
-	<remap from="map" to="/map" />
+	<remap from="scan" to="$(arg laser_topic)" />
+	<remap from="map" to="map" />
 	<remap from="/move_base_simple/goal" 						to="/robot2/move_base_simple/goal" />
 	<remap from="/move_base/TebLocalPlannerROS/global_plan" 			to="/robot2/move_base/TebLocalPlannerROS/global_plan" />
 	<remap from="/move_base/TebLocalPlannerROS/local_plan" 				to="/robot2/move_base/TebLocalPlannerROS/local_plan" />
