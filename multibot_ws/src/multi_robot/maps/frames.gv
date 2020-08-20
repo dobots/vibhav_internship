@@ -1,0 +1,30 @@
+digraph G {
+"map" -> "robot1_tf/map"[label="Broadcaster: /odom_map_broadcaster_robot1\nAverage rate: 10.204 Hz\nMost recent transform: 2396.160 ( -0.070 sec old)\nBuffer length: 4.900 sec\n"];
+"map" -> "robot2_tf/map"[label="Broadcaster: /odom_map_broadcaster_robot2\nAverage rate: 10.204 Hz\nMost recent transform: 2396.160 ( -0.070 sec old)\nBuffer length: 4.900 sec\n"];
+"robot1_tf/base_link" -> "robot1_tf/wheel_left_link"[label="Broadcaster: /robot1/robot_state_publisher\nAverage rate: 24.335 Hz\nMost recent transform: 2396.050 ( 0.040 sec old)\nBuffer length: 4.890 sec\n"];
+"robot1_tf/base_footprint" -> "robot1_tf/base_link"[label="Broadcaster: /robot1/robot_state_publisher\nAverage rate: 10000.000 Hz\nMost recent transform: 0.000 ( 2396.090 sec old)\nBuffer length: 0.000 sec\n"];
+"robot1_tf/base_link" -> "robot1_tf/wheel_right_link"[label="Broadcaster: /robot1/robot_state_publisher\nAverage rate: 24.335 Hz\nMost recent transform: 2396.050 ( 0.040 sec old)\nBuffer length: 4.890 sec\n"];
+"robot2_tf/odom" -> "robot2_tf/base_footprint"[label="Broadcaster: /gazebo\nAverage rate: 100.203 Hz\nMost recent transform: 2396.080 ( 0.010 sec old)\nBuffer length: 4.920 sec\n"];
+"robot2_tf/map" -> "robot2_tf/odom"[label="Broadcaster: /robot2_gmapping\nAverage rate: 20.206 Hz\nMost recent transform: 2396.110 ( -0.020 sec old)\nBuffer length: 4.850 sec\n"];
+"robot1_tf/odom" -> "robot1_tf/base_footprint"[label="Broadcaster: /gazebo\nAverage rate: 100.407 Hz\nMost recent transform: 2396.080 ( 0.010 sec old)\nBuffer length: 4.910 sec\n"];
+"robot1_tf/map" -> "robot1_tf/odom"[label="Broadcaster: /robot1_gmapping\nAverage rate: 20.206 Hz\nMost recent transform: 2396.110 ( -0.020 sec old)\nBuffer length: 4.850 sec\n"];
+"robot2_tf/base_link" -> "robot2_tf/laser"[label="Broadcaster: /robot2/robot_state_publisher\nAverage rate: 10000.000 Hz\nMost recent transform: 0.000 ( 2396.090 sec old)\nBuffer length: 0.000 sec\n"];
+"robot2_tf/base_footprint" -> "robot2_tf/base_link"[label="Broadcaster: /robot2/robot_state_publisher\nAverage rate: 10000.000 Hz\nMost recent transform: 0.000 ( 2396.090 sec old)\nBuffer length: 0.000 sec\n"];
+"robot2_tf/base_link" -> "robot2_tf/camera_link"[label="Broadcaster: /robot2/robot_state_publisher\nAverage rate: 10000.000 Hz\nMost recent transform: 0.000 ( 2396.090 sec old)\nBuffer length: 0.000 sec\n"];
+"robot2_tf/camera_link" -> "robot2_tf/camera_lens_link"[label="Broadcaster: /robot2/robot_state_publisher\nAverage rate: 10000.000 Hz\nMost recent transform: 0.000 ( 2396.090 sec old)\nBuffer length: 0.000 sec\n"];
+"robot2_tf/base_link" -> "robot2_tf/caster_back_left_link"[label="Broadcaster: /robot2/robot_state_publisher\nAverage rate: 10000.000 Hz\nMost recent transform: 0.000 ( 2396.090 sec old)\nBuffer length: 0.000 sec\n"];
+"robot2_tf/base_link" -> "robot2_tf/caster_back_right_link"[label="Broadcaster: /robot2/robot_state_publisher\nAverage rate: 10000.000 Hz\nMost recent transform: 0.000 ( 2396.090 sec old)\nBuffer length: 0.000 sec\n"];
+"robot2_tf/base_link" -> "robot2_tf/imu_link"[label="Broadcaster: /robot2/robot_state_publisher\nAverage rate: 10000.000 Hz\nMost recent transform: 0.000 ( 2396.090 sec old)\nBuffer length: 0.000 sec\n"];
+"robot1_tf/base_link" -> "robot1_tf/laser"[label="Broadcaster: /robot1/robot_state_publisher\nAverage rate: 10000.000 Hz\nMost recent transform: 0.000 ( 2396.090 sec old)\nBuffer length: 0.000 sec\n"];
+"robot1_tf/base_link" -> "robot1_tf/camera_link"[label="Broadcaster: /robot1/robot_state_publisher\nAverage rate: 10000.000 Hz\nMost recent transform: 0.000 ( 2396.090 sec old)\nBuffer length: 0.000 sec\n"];
+"robot1_tf/camera_link" -> "robot1_tf/camera_lens_link"[label="Broadcaster: /robot1/robot_state_publisher\nAverage rate: 10000.000 Hz\nMost recent transform: 0.000 ( 2396.090 sec old)\nBuffer length: 0.000 sec\n"];
+"robot1_tf/base_link" -> "robot1_tf/caster_back_left_link"[label="Broadcaster: /robot1/robot_state_publisher\nAverage rate: 10000.000 Hz\nMost recent transform: 0.000 ( 2396.090 sec old)\nBuffer length: 0.000 sec\n"];
+"robot1_tf/base_link" -> "robot1_tf/caster_back_right_link"[label="Broadcaster: /robot1/robot_state_publisher\nAverage rate: 10000.000 Hz\nMost recent transform: 0.000 ( 2396.090 sec old)\nBuffer length: 0.000 sec\n"];
+"robot1_tf/base_link" -> "robot1_tf/imu_link"[label="Broadcaster: /robot1/robot_state_publisher\nAverage rate: 10000.000 Hz\nMost recent transform: 0.000 ( 2396.090 sec old)\nBuffer length: 0.000 sec\n"];
+"robot2_tf/base_link" -> "robot2_tf/wheel_left_link"[label="Broadcaster: /robot2/robot_state_publisher\nAverage rate: 24.074 Hz\nMost recent transform: 2396.060 ( 0.030 sec old)\nBuffer length: 4.860 sec\n"];
+"robot2_tf/base_link" -> "robot2_tf/wheel_right_link"[label="Broadcaster: /robot2/robot_state_publisher\nAverage rate: 24.074 Hz\nMost recent transform: 2396.060 ( 0.030 sec old)\nBuffer length: 4.860 sec\n"];
+edge [style=invis];
+ subgraph cluster_legend { style=bold; color=black; label ="view_frames Result";
+"Recorded at time: 2396.090"[ shape=plaintext ] ;
+ }->"map";
+}

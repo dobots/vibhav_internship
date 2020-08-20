@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <launch>
 	<param name="/use_sim_time" value="true" />
-	<arg name="world_name" default="$(find mb_gazebo)/worlds/arena_2018.world"/>
+	<arg name="world_name" default="$(find mb_gazebo)/worlds/house.world"/>  <!--house.world -->
 	<arg name="rvizconfig" default="$(find mb_navigation)/rviz/multinav_debug.rviz"/>
 
   	<include file="$(find gazebo_ros)/launch/empty_world.launch">
@@ -14,8 +14,8 @@
   	</include>
 	
 	<!-- Without these 2 lines, map is not detected in rviz -->
-	<!-- <node pkg="tf" type="static_transform_publisher" name="odom_map_broadcaster_robot1" args="0 0 0 0 0 0 map robot1_tf/odom 100"/> -->
-	<!-- <node pkg="tf" type="static_transform_publisher" name="odom_map_broadcaster_robot2" args="0 0 0 0 0 0 map robot2_tf/odom 100"/> -->
+	<node pkg="tf" type="static_transform_publisher" name="odom_map_broadcaster_robot1" args="0 0 0 0 0 0 map robot1_tf/map 100"/>
+	<node pkg="tf" type="static_transform_publisher" name="odom_map_broadcaster_robot2" args="0 0 0 0 0 0 map robot2_tf/map 100"/>
 	
 	<!-- Only mentions robot1_tf/map in rviz, but does not give the output of the map. -->
 	<!-- <node pkg="tf" type="static_transform_publisher" name="map_odom_broadcaster_robot1" args="0 0 0 0 0 0 robot1_tf/map robot1_tf/odom 100"/> -->
@@ -49,8 +49,8 @@
 
 	<!-- Bot controllers -->
 	<!-- <node pkg="simple_navigation_goals" type="simple_navigation_goals_periodic_multibot" name="simple_navigation_goals_periodic_multibot" /> -->
-	<!-- <node pkg="simple_navigation_goals" type="simple_navigation_goals_periodic_robot1" name="simple_navigation_goals_periodic_robot1" output="screen" /> -->
-	<!-- <node pkg="simple_navigation_goals" type="simple_navigation_goals_periodic_robot2" name="simple_navigation_goals_periodic_robot2" output="screen" /> -->
+	<node pkg="simple_navigation_goals" type="simple_navigation_goals_periodic_robot1" name="simple_navigation_goals_periodic_robot1" output="screen" />
+	<node pkg="simple_navigation_goals" type="simple_navigation_goals_periodic_robot2" name="simple_navigation_goals_periodic_robot2" output="screen" />
 
 	<!-- rviz arguments -->
 	<node pkg="rviz" type="rviz" name="rviz" args="-d $(find multi_robot)/rviz/multinav_debug.rviz" output="screen" />
