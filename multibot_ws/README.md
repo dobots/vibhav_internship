@@ -53,4 +53,9 @@ To launch spawning of 2 agents with a navigation stack that explore and merge a 
 roslaunch multi_robot multiexplrobot_arena.launch
 ```
 
+Keyboard cartography one robot:- 
+```bash
+roslaunch mb_cartography nav_tut_cartographer.launch
+```
+
 
