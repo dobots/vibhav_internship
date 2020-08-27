@@ -27,16 +27,18 @@ int main(int argc, char** argv){
   goal.target_pose.pose.orientation.w = 1.0;*/
 
   while (ros::ok()){
-  goal.target_pose.header.frame_id = "base_link";   //map is recommended
+  goal.target_pose.header.frame_id = "map";   //map is recommended
   goal.target_pose.header.stamp = ros::Time::now();
 
   if(count != 5){
-    goal.target_pose.pose.position.x = 1.0;
+    goal.target_pose.pose.position.x = goal.target_pose.pose.position.x + 1.0;
+    //goal.target_pose.pose.position.x = 1.0;
     goal.target_pose.pose.orientation.w = 1.0;
   }
   else{
     ROS_INFO("The agent was detected to be stuck");
-    goal.target_pose.pose.position.x = -1.0;
+    goal.target_pose.pose.position.x = goal.target_pose.pose.position.x - 1.0;
+    //goal.target_pose.pose.position.x = -1.0;
     goal.target_pose.pose.orientation.w = 1.0;
     ros::Duration(5.0).sleep();
     count = 0;
