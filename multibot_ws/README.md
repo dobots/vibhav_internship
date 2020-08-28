@@ -58,4 +58,12 @@ Keyboard cartography one robot:-
 roslaunch mb_cartography nav_tut_cartographer.launch
 ```
 
+Keyboard cartography multiple robot:- 
+```bash
+roslaunch multi_robot multiexplrobot_carto_seperate.launch
+```
+```bash
+roslaunch multi_robot multiexplrobot_carto.launch
+```
+
 

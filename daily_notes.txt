@@ -524,3 +524,49 @@ Cartographer -
 		- Therefore in the final version we can give the postion of the goal wrt the map postion, but oly as an absolute value.
 	- Incremented the sleep time to 10 seconds. 
 		- Better performance 
+TBD
+/scan is being taken by each robot. Need to check how to make it take indivual robot1/scan and robot2/scan.
+
+28/8/2020 - 
+ISSUE 6 - map merging not happening
+ISSUE 7 - Unconnected TF's on Gazebo 
+1) Set seperate lua scripts with different scan values
+	- ISSUE 6 and ISSUE 7 persists
+2) Set num_laser_scans = 2. Included only 1 .lua file.
+	- ISSUE 6 and ISSUE 7 persists
+	- ISSUE 8 - odom frame does not appear.
+3)  Added 2 remaps from scan to robot1/scan and robot2/scan 
+	- ISSUE 6 and ISSUE 7 persists
+4) Set seperate lua scripts with different scan values, to check if ISSUE 8 gets resolved.
+	- ISSUE 6,7,and 8 persists
+5) Changed each robot odom fram to include tf namespace.
+	-ISSUE 6,7,and 8 persists
+6) Removed scan topics
+	-ISSUE 6,7,and 8 persists
+7) Remapped from robot1/scan and robot2/scan to /scan
+	-ISSUE 6,7,and 8 persists
+8) Observation -> When Gmapping with only 1 node is used then no odom is shown on screen but only difference between working and not wokring is the robot1/scan  and robot2/scan are taken as input by the SLAM algorithms, HOW TO DO THIS IN CRTOGRAPHER?? 
+9) Added a remapping from scan_1 and scan_2 to robot1/scan and robot2/scan. Used the single Cartographer file.
+	- Cartographer nodes able to get robot2/scan and robot1/scan topics
+	- No "base_link" error coming
+10) made tracking_fram = robot1_tf/base_link in summit.lua
+	- Issue 6, 7 8 happening
+11) Modified tracking_frame = map
+	- Issue 6, 7 8 happening
+12) Modified tracking_frame = map and a static frame of the map connected to the map
+	- Issue 6, 7 and 8 get solved
+	- BASICALLY MAP FRAME NEED TO BE GENERSTED THAT IS CONNECTED TO ODOM.
+13) Made seperate summit files and added them to the launch file bu using a tatic transform
+	- The TF is OK, but map is pooor
+	-Important to note, that the /map generated topic in seperate case does not need a map merge.
+	-Merging looks okay, bu the map keeps refresshing slowly.
+	
+TBD, solidy the merging and ensure a confident result
+	
+Thesis discussion
+- Literature study to be longer
+- Many points are too specefic especially the graphical planning
+- Many questions are too specefic at this stage
+
+- Add more papers related to the terms Decentralised, Planning and Exploration. This need to be put in the starting of the overleaf file
+

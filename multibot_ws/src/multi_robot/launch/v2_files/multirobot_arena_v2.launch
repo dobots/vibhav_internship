@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<launch>
+  <param name="/use_sim_time" value="true" />
+  <arg name="world_name" default="$(find mb_gazebo)/worlds/arena_2018.world"/>
+  <arg name="rvizconfig" default="$(find multi_robot)/rviz/multinav_debug.rviz"/>
+
+  <include file="$(find gazebo_ros)/launch/empty_world.launch">
+  	<arg name="world_name" value="$(arg world_name)"/>
+	<arg name="paused" value="false"/>
+	<arg name="use_sim_time" value="true"/>
+	<arg name="gui" value="true"/>
+	<arg name="headless" value="false"/>
+	<arg name="debug" value="false"/>
+  </include>
+
+  <!-- start world -->
+  <!-- <node name="gazebo_ros" pkg="gazebo_ros" type="gazebo_ros" 
+   args="$(find mb_gazebo)/worlds/arena_2018.world" respawn="false" output="screen" /> -->
+
+  <!-- start gui -->
+  <!-- <node name="gazebo_gui" pkg="gazebo_ros" type="gui" respawn="false" output="screen"/> -->
+
+  <!-- include our robots -->
+  <include file="$(find multi_robot)/launch/robots.launch"/>
+  <node name="rviz" pkg="rviz" type="rviz" args="-d $(arg rvizconfig)"/>
+</launch>

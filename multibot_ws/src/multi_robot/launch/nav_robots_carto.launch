@@ -7,8 +7,8 @@
 
   <!-- Robot Properties -->
   <!-- AMCL -->
-  <include file="$(find multi_robot)/launch/amcl_robot1.launch" />
-  <include file="$(find multi_robot)/launch/amcl_robot2.launch" />
+  <!-- <include file="$(find multi_robot)/launch/amcl_robot1.launch" /> -->
+  <!-- <include file="$(find multi_robot)/launch/amcl_robot2.launch" /> -->
 
   <!-- Move Base -->
   <include file="$(find multi_robot)/launch/move_base1.launch" /> 
@@ -16,12 +16,13 @@
   
   <!-- SLAM imports -->
   <!-- <include file="$(find multi_robot)/launch/hector_slam.launch" /> -->
-  <include file="$(find multi_robot)/launch/gmapping/gmapping1.launch" />
-  <include file="$(find multi_robot)/launch/gmapping/gmapping2.launch" />
+  <!-- <include file="$(find multi_robot)/launch/gmapping/gmapping1.launch" /> -->
+  <!-- <include file="$(find multi_robot)/launch/gmapping/gmapping2.launch" /> -->
+  <include file="$(find multi_robot)/launch/carto/summit.launch" />
 
   <!-- Map Merging -->
   <!-- <include file="$(find multi_robot)/launch/map_merge.launch" /> -->
-  <include file="$(find multi_robot)/launch/map_merge_testing.launch" />
+  <!-- <include file="$(find multi_robot)/launch/map_merge_testing.launch" /> -->
 
   <!-- RRT Exploration -->
   <!-- <include file="$(find multi_robot)/launch/rrtexpl_multibot.launch" /> -->
