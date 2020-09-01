@@ -2,8 +2,8 @@
 <launch>
 	<node pkg="gmapping" type="slam_gmapping" name="robot2_gmapping" output="screen">
 		<param name="map_frame" value="robot2_tf/map"/>
-		<param name="base_frame" value="robot2_tf/base_footprint"/>
 		<param name="odom_frame" value="robot2_tf/odom"/>
+		<param name="base_frame" value="robot2_tf/base_footprint"/>
 
 		<remap from="scan" to="robot2/scan"/>
 		<remap from="map" to="robot2/map"/>

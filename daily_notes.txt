@@ -570,3 +570,25 @@ Thesis discussion
 
 - Add more papers related to the terms Decentralised, Planning and Exploration. This need to be put in the starting of the overleaf file
 
+
+31/8/2020 -
+To also check 3D mapping for the single robot case and increase it to multiple robots.
+1) Launched cartograph node calling seperate map cartographers for each robot -
+	- ISSUE 9 - Map keeps refreshing,
+	- ISSUE 10 - Laser scans of each robot is different. Ideally should be same as they are in the same arena.
+	- ISSUE 11 - Both robots spawned on the same point
+2) Changed map_frame of each robot to /map.
+	- Issues persist
+3) Changes published_frame=odom
+	- Issue 7 comes up. No bots, but only map present on Gazebo
+
+1/9/2020
+In both map merging and carto, no dynamic tf of map is generated (ISSUE6)	
+ISSUE 9, 10 and 11 dont happen in Map-Merger. But ISSUE 6 happens there too.
+
+So, Starting to Debug map-merger first.
+	- Tried as per video by placing a tf map between tf1 and tf2, did not work
+	- To note, No difference happens between world_frame=robot1_tf/map and  world_frame=map (while keeping map frame static)
+	- When both the init pose and the spawned points are equal, then ISSUE 10 gets resolved in Map-Merging.
+	- ISSUE 12 - Whenever, the maps are merged from map-merger, then the map appears shifted from the laser scans (or what is seen by the robot.
+		- By having a +0.5 shift in both X and Y axes of the, ISSUE 12 gets Resolved.
