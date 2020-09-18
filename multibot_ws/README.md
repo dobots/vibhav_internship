@@ -14,7 +14,8 @@ This repository consists of the code to:-
 	1. Hector Slam
 	2. GMapping
 	3. Cartographer
-
+	
+***
 ## Important Packages
 The launch files have been developed and tested on Ubuntu LTS 18.04 and ROS Melodic with Gazebo 9 and RViz. The important ROS packages that must be installed are:-
 
