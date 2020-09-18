@@ -1,8 +1,0 @@
-prefix=/home/vibhav/multibot_ws/devel
-
-Name: mb_navigation
-Description: Description of mb_navigation
-Version: 0.0.0
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: 

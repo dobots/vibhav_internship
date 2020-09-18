@@ -1,8 +1,0 @@
-prefix=/home/vibhav/multibot_ws/install
-
-Name: mb_description
-Description: Description of mb_description
-Version: 0.0.0
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: 
