@@ -2,15 +2,18 @@
 
 This repository consists of the code to:
 
-1. Run a single robot and explore an area using Hector Slam
-2. Run a single robot and explore an area using GMapping
-3. Run a single robot and explore an area using Cartographer
-4. Run multiple robots and explore an area using Hector Slam
-5. Run multiple robots and explore an area using GMapping
-6. Run multiple robots and explore an area using Cartographer
-7. Run RRT based frontier exploration with a single robot and map an area using Hector Slam
-8. Run RRT based frontier exploration with a single robot and map an area using GMapping
-9. Run RRT based frontier exploration with a single robot and map an area using Cartographer
+1. Run a single robot and explore an area using 
+	1.	Hector Slam
+	2. GMapping
+	3. Cartographer
+2. Run multiple robots and explore an area using 
+	1. Hector Slam
+	2. GMapping
+	3. Cartographer
+3. Run RRT based frontier exploration with a single robot and map an area using 
+	1. Hector Slam
+	2. GMapping
+	3. Cartographer
 
 
 ## Current status
