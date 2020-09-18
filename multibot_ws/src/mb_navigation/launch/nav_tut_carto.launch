@@ -4,7 +4,7 @@
 	<!-- <include file="$(find mb_control)/launch/keyboard_control.launch" /> -->
 	<!-- <include file="$(find mb_localization)/launch/amcl.launch" /> -->
 	<include file="$(find mb_gazebo)/launch/mb_arena.launch" />
-	<include file="$(find mb_localization)/launch/gmapping.launch" />
+	<include file="$(find mb_cartography)/launch/summit.launch" />
 	<include file="$(find mb_navigation)/launch/move_base.launch" />
 
 	<node name="rviz" pkg="rviz" type="rviz" args="-d $(arg rvizconfig)"/>

@@ -19,81 +19,39 @@ This repository consists of the code to:-
 ## Important Packages
 The launch files have been developed and tested on Ubuntu LTS 18.04 and ROS Melodic with Gazebo 9 and RViz. The important ROS packages that must be installed are:-
 
-### Multi robot map merge [(link)](http://wiki.ros.org/multirobot_map_merge)
+#### Multi robot map merge [(link)](http://wiki.ros.org/multirobot_map_merge)
 This package needs to be cloned directly onto the current workspace. The repository can be found [here](https://github.com/hrnr/m-explore) and can be loaded using:-
 ```bash
 git clone https://github.com/hrnr/m-explore.git
 ```
-### Cartographer [(link)](http://wiki.ros.org/cartographer)
+#### Cartographer [(link)](http://wiki.ros.org/cartographer)
 An important resource on this package can be found [here](https://ouster.com/blog/building-maps-using-google-cartographer-and-the-os1-lidar-sensor/). To install this package, use:-
 ```bash
 sudo apt-get install ros-melodic-cartographer ros-melodic-cartographer-ros ros-melodic-cartographer-ros-msgs ros-melodic-cartographer-rviz
 ```
 
-## Current status
-The following are implemented at the moment:-
-
-Spawning of the URDF robot onto a predefined world on gazebo. To launch it, use:-
+#### Teleop twist keyboard [(link)](http://wiki.ros.org/teleop_twist_keyboard)
 ```bash
-roslaunch mb_gazebo mb_arena.launch
+sudo apt-get install ros-melodic-teleop-twist-keyboard
 ```
 
-The above function, running it on rviz, controlling the bot with a keyboard, localisation using hector_slam and saving the 2D map. To launch this, use:- 
-```bash
-roslaunch mb_gazebo mb_keyboard_sim_hector_slam.launch
-``` 
+***
+## Launch commands
 
-The above function, running it on rviz, controlling the bot with a keyboard, localisation using gmapping and saving the 2D map. To launch this, use:- 
-```bash
-roslaunch mb_gazebo mb_keyboard_sim_gmapping.launch.launch
-```
-
-To save the map generated, ensure that gazebo (and thus the map server) is still running and use:-
-```bash
-rosrun map_server map_saver -f <NAME_OF_MAP>
-```
-
-To run a bot in an unknown map and use the navigation stack, ensure that in the "turtlebot3_waffle_base.gazebo.xacro" file in the mb_description package, the <commandTopic> is set as cmd(underscore)vel. To launch this and localise using hectorslam, use:-
-```bash 
+#### Single robot with enabled 
 roslaunch mb_navigation nav_tut_hectorslam.launch
-```
 
-To launch this and localise using gmapping, use:-
-```bash 
 roslaunch mb_navigation nav_tut_gmapping.launch
-```
 
-To launch autonomous agent exploration in a map, launch:- 
-```bash
+roslaunch mb_navigation nav_tut_carto.launch
+
+rosrun teleop_twist_keyboard teleop_twist_keyboard.py
+
+
+#### Single Robot Exploration
+
+roslaunch mb_navigation autexpl_hector_slam.launch
+
 roslaunch mb_navigation autexpl_gmapping.launch
-```
-
-To launch spawning of 2 agents in a map, launch:- 
-```bash
-roslaunch multi_robot multirobot_arena_v2.launch
-```
-
-To launch spawning of 2 agents with a navigation stack in map and localised by amcl, launch:- 
-```bash
-roslaunch multi_robot multi_navrobots_amcl.launch
-```
-
-To launch spawning of 2 agents with a navigation stack that explore and merge a map, launch:- 
-```bash
-roslaunch multi_robot multiexplrobot_arena.launch
-```
-
-Keyboard cartography one robot:- 
-```bash
-roslaunch mb_cartography nav_tut_cartographer.launch
-```
-
-Keyboard cartography multiple robot:- 
-```bash
-roslaunch multi_robot multiexplrobot_carto_seperate.launch
-```
-```bash
-roslaunch multi_robot multiexplrobot_carto.launch
-```
 
 
