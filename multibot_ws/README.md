@@ -1,8 +1,8 @@
 # Mapping, planning and control of single and multiple robots
 
 This repository consists of the code to:
+
 1. Run a single robot and explore an area using Hector Slam
-	1. test
 2. Run a single robot and explore an area using GMapping
 3. Run a single robot and explore an area using Cartographer
 4. Run multiple robots and explore an area using Hector Slam
