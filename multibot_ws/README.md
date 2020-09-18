@@ -18,12 +18,12 @@ This repository consists of the code to:-
 ## Important Packages
 The launch files have been developed and tested on Ubuntu LTS 18.04 and ROS Melodic with Gazebo 9 and RViz. The important ROS packages that must be installed are:-
 
-# Multi robot map merge [link](http://wiki.ros.org/multirobot_map_merge)
+### Multi robot map merge [(link)](http://wiki.ros.org/multirobot_map_merge)
 This package needs to be cloned directly onto the current workspace. The repository can be found [here](https://github.com/hrnr/m-explore) and can be loaded using:-
 ```bash
 git clone https://github.com/hrnr/m-explore.git
 ```
-# Cartographer
+### Cartographer [(link)](http://wiki.ros.org/cartographer)
 An important resource on this package can be found [here](https://ouster.com/blog/building-maps-using-google-cartographer-and-the-os1-lidar-sensor/). To install this package, use:-
 ```bash
 sudo apt-get install ros-melodic-cartographer ros-melodic-cartographer-ros ros-melodic-cartographer-ros-msgs ros-melodic-cartographer-rviz
