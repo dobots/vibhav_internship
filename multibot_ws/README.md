@@ -1,4 +1,17 @@
-# Important launch commands
+# Mapping, planning and control of single and multiple robots
+
+This repository consists of the code to:
+1. Run a single robot and explore an area using Hector Slam
+	1. test
+2. Run a single robot and explore an area using GMapping
+3. Run a single robot and explore an area using Cartographer
+4. Run multiple robots and explore an area using Hector Slam
+5. Run multiple robots and explore an area using GMapping
+6. Run multiple robots and explore an area using Cartographer
+7. Run RRT based frontier exploration with a single robot and map an area using Hector Slam
+8. Run RRT based frontier exploration with a single robot and map an area using GMapping
+9. Run RRT based frontier exploration with a single robot and map an area using Cartographer
+
 
 ## Current status
 The following are implemented at the moment:-
