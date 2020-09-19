@@ -34,8 +34,9 @@
   <group ns="robot1">
     <param name="tf_prefix" value="robot1_tf" />
     <include file="$(find multi_robot)/launch/one_robot.launch" >
-      <arg name="init_pose" value="-x 2 -y 1 -z 0" />
+      <arg name="init_pose" value="-x 0 -y 0 -z 0" />
       <arg name="robot_name"  value="robot1" />
+      <remap from="map" to="robot1/map"/>
     </include>
     <!-- <include file="$(find multi_robot)/launch/gmapping.launch" /> -->
   </group>
@@ -44,8 +45,9 @@
    <group ns="robot2">
     <param name="tf_prefix" value="robot2_tf" />
     <include file="$(find multi_robot)/launch/one_robot.launch" >
-      <arg name="init_pose" value="-x 1 -y 2 -z 0" />
+      <arg name="init_pose" value="-x 0 -y -0.8 -z 0" />
       <arg name="robot_name"  value="robot2" />
+      <remap from="map" to="robot2/map"/>
     </include>
     <!-- <include file="$(find multi_robot)/launch/hector_slam.launch" /> -->
   </group>

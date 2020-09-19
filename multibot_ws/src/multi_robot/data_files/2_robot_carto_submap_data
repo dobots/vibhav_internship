@@ -1,0 +1,3668 @@
+header: 
+  seq: 298
+  stamp: 
+    secs: 2459
+    nsecs: 370000000
+  frame_id: "map"
+submap: 
+  - 
+    trajectory_id: 0
+    submap_index: 0
+    submap_version: 180
+    pose: 
+      position: 
+        x: 0.0
+        y: 0.0
+        z: 0.0
+      orientation: 
+        x: 0.0
+        y: 0.0
+        z: 0.0
+        w: 1.0
+  - 
+    trajectory_id: 0
+    submap_index: 1
+    submap_version: 180
+    pose: 
+      position: 
+        x: 0.890666534543
+        y: 0.473671888808
+        z: 0.0
+      orientation: 
+        x: -0.0
+        y: -0.0
+        z: -0.00330721051445
+        w: 0.999994531164
+  - 
+    trajectory_id: 0
+    submap_index: 2
+    submap_version: 170
+    pose: 
+      position: 
+        x: 1.31840766185
+        y: 1.11963570733
+        z: 0.0
+      orientation: 
+        x: -0.0
+        y: -0.0
+        z: -0.00383292457882
+        w: 0.999992654318
+  - 
+    trajectory_id: 0
+    submap_index: 3
+    submap_version: 80
+    pose: 
+      position: 
+        x: 1.62208459761
+        y: 0.684989136517
+        z: 0.0
+      orientation: 
+        x: -0.0
+        y: -0.0
+        z: -0.00387704655809
+        w: 0.999992484227
+---
+header: 
+  seq: 295
+  stamp: 
+    secs: 2459
+    nsecs: 520000000
+  frame_id: "map"
+submap: 
+  - 
+    trajectory_id: 0
+    submap_index: 0
+    submap_version: 180
+    pose: 
+      position: 
+        x: 0.0
+        y: 0.0
+        z: 0.0
+      orientation: 
+        x: 0.0
+        y: 0.0
+        z: 0.0
+        w: 1.0
+  - 
+    trajectory_id: 0
+    submap_index: 1
+    submap_version: 180
+    pose: 
+      position: 
+        x: 1.27830691542
+        y: 0.0956448150308
+        z: 0.0
+      orientation: 
+        x: 0.0
+        y: 0.0
+        z: 0.000144147317248
+        w: 0.999999989611
+  - 
+    trajectory_id: 0
+    submap_index: 2
+    submap_version: 180
+    pose: 
+      position: 
+        x: 1.45985476521
+        y: 0.498235780995
+        z: 0.0
+      orientation: 
+        x: 0.0
+        y: 0.0
+        z: 0.00196915377733
+        w: 0.999998061215
+  - 
+    trajectory_id: 0
+    submap_index: 3
+    submap_version: 119
+    pose: 
+      position: 
+        x: 1.3498546518
+        y: 1.21604506215
+        z: 0.0
+      orientation: 
+        x: 0.0
+        y: 0.0
+        z: 0.00106097717386
+        w: 0.999999437164
+  - 
+    trajectory_id: 0
+    submap_index: 4
+    submap_version: 29
+    pose: 
+      position: 
+        x: 1.29100730376
+        y: 1.82426036334
+        z: 0.0
+      orientation: 
+        x: 0.0
+        y: 0.0
+        z: 0.00160718015404
+        w: 0.999998708485
+---
+header: 
+  seq: 299
+  stamp: 
+    secs: 2459
+    nsecs: 670000000
+  frame_id: "map"
+submap: 
+  - 
+    trajectory_id: 0
+    submap_index: 0
+    submap_version: 180
+    pose: 
+      position: 
+        x: 0.0
+        y: 0.0
+        z: 0.0
+      orientation: 
+        x: 0.0
+        y: 0.0
+        z: 0.0
+        w: 1.0
+  - 
+    trajectory_id: 0
+    submap_index: 1
+    submap_version: 180
+    pose: 
+      position: 
+        x: 0.890666534543
+        y: 0.473671888808
+        z: 0.0
+      orientation: 
+        x: -0.0
+        y: -0.0
+        z: -0.00330721051445
+        w: 0.999994531164
+  - 
+    trajectory_id: 0
+    submap_index: 2
+    submap_version: 170
+    pose: 
+      position: 
+        x: 1.31840766185
+        y: 1.11963570733
+        z: 0.0
+      orientation: 
+        x: -0.0
+        y: -0.0
+        z: -0.00383292457882
+        w: 0.999992654318
+  - 
+    trajectory_id: 0
+    submap_index: 3
+    submap_version: 80
+    pose: 
+      position: 
+        x: 1.62208459761
+        y: 0.684989136517
+        z: 0.0
+      orientation: 
+        x: -0.0
+        y: -0.0
+        z: -0.00387704655809
+        w: 0.999992484227
+---
+header: 
+  seq: 296
+  stamp: 
+    secs: 2459
+    nsecs: 810000000
+  frame_id: "map"
+submap: 
+  - 
+    trajectory_id: 0
+    submap_index: 0
+    submap_version: 180
+    pose: 
+      position: 
+        x: 0.0
+        y: 0.0
+        z: 0.0
+      orientation: 
+        x: 0.0
+        y: 0.0
+        z: 0.0
+        w: 1.0
+  - 
+    trajectory_id: 0
+    submap_index: 1
+    submap_version: 180
+    pose: 
+      position: 
+        x: 1.27830691542
+        y: 0.0956448150308
+        z: 0.0
+      orientation: 
+        x: 0.0
+        y: 0.0
+        z: 0.000144147317248
+        w: 0.999999989611
+  - 
+    trajectory_id: 0
+    submap_index: 2
+    submap_version: 180
+    pose: 
+      position: 
+        x: 1.45985476521
+        y: 0.498235780995
+        z: 0.0
+      orientation: 
+        x: 0.0
+        y: 0.0
+        z: 0.00196915377733
+        w: 0.999998061215
+  - 
+    trajectory_id: 0
+    submap_index: 3
+    submap_version: 119
+    pose: 
+      position: 
+        x: 1.3498546518
+        y: 1.21604506215
+        z: 0.0
+      orientation: 
+        x: 0.0
+        y: 0.0
+        z: 0.00106097717386
+        w: 0.999999437164
+  - 
+    trajectory_id: 0
+    submap_index: 4
+    submap_version: 29
+    pose: 
+      position: 
+        x: 1.29100730376
+        y: 1.82426036334
+        z: 0.0
+      orientation: 
+        x: 0.0
+        y: 0.0
+        z: 0.00160718015404
+        w: 0.999998708485
+---
+header: 
+  seq: 300
+  stamp: 
+    secs: 2459
+    nsecs: 970000000
+  frame_id: "map"
+submap: 
+  - 
+    trajectory_id: 0
+    submap_index: 0
+    submap_version: 180
+    pose: 
+      position: 
+        x: 0.0
+        y: 0.0
+        z: 0.0
+      orientation: 
+        x: 0.0
+        y: 0.0
+        z: 0.0
+        w: 1.0
+  - 
+    trajectory_id: 0
+    submap_index: 1
+    submap_version: 180
+    pose: 
+      position: 
+        x: 0.890666534543
+        y: 0.473671888808
+        z: 0.0
+      orientation: 
+        x: -0.0
+        y: -0.0
+        z: -0.00330721051445
+        w: 0.999994531164
+  - 
+    trajectory_id: 0
+    submap_index: 2
+    submap_version: 170
+    pose: 
+      position: 
+        x: 1.31840766185
+        y: 1.11963570733
+        z: 0.0
+      orientation: 
+        x: -0.0
+        y: -0.0
+        z: -0.00383292457882
+        w: 0.999992654318
+  - 
+    trajectory_id: 0
+    submap_index: 3
+    submap_version: 80
+    pose: 
+      position: 
+        x: 1.62208459761
+        y: 0.684989136517
+        z: 0.0
+      orientation: 
+        x: -0.0
+        y: -0.0
+        z: -0.00387704655809
+        w: 0.999992484227
+---
+header: 
+  seq: 297
+  stamp: 
+    secs: 2460
+    nsecs: 110000000
+  frame_id: "map"
+submap: 
+  - 
+    trajectory_id: 0
+    submap_index: 0
+    submap_version: 180
+    pose: 
+      position: 
+        x: 0.0
+        y: 0.0
+        z: 0.0
+      orientation: 
+        x: 0.0
+        y: 0.0
+        z: 0.0
+        w: 1.0
+  - 
+    trajectory_id: 0
+    submap_index: 1
+    submap_version: 180
+    pose: 
+      position: 
+        x: 1.27830691542
+        y: 0.0956448150308
+        z: 0.0
+      orientation: 
+        x: 0.0
+        y: 0.0
+        z: 0.000144147317248
+        w: 0.999999989611
+  - 
+    trajectory_id: 0
+    submap_index: 2
+    submap_version: 180
+    pose: 
+      position: 
+        x: 1.45985476521
+        y: 0.498235780995
+        z: 0.0
+      orientation: 
+        x: 0.0
+        y: 0.0
+        z: 0.00196915377733
+        w: 0.999998061215
+  - 
+    trajectory_id: 0
+    submap_index: 3
+    submap_version: 119
+    pose: 
+      position: 
+        x: 1.3498546518
+        y: 1.21604506215
+        z: 0.0
+      orientation: 
+        x: 0.0
+        y: 0.0
+        z: 0.00106097717386
+        w: 0.999999437164
+  - 
+    trajectory_id: 0
+    submap_index: 4
+    submap_version: 29
+    pose: 
+      position: 
+        x: 1.29100730376
+        y: 1.82426036334
+        z: 0.0
+      orientation: 
+        x: 0.0
+        y: 0.0
+        z: 0.00160718015404
+        w: 0.999998708485
+---
+header: 
+  seq: 301
+  stamp: 
+    secs: 2460
+    nsecs: 270000000
+  frame_id: "map"
+submap: 
+  - 
+    trajectory_id: 0
+    submap_index: 0
+    submap_version: 180
+    pose: 
+      position: 
+        x: 0.0
+        y: 0.0
+        z: 0.0
+      orientation: 
+        x: 0.0
+        y: 0.0
+        z: 0.0
+        w: 1.0
+  - 
+    trajectory_id: 0
+    submap_index: 1
+    submap_version: 180
+    pose: 
+      position: 
+        x: 0.890666534543
+        y: 0.473671888808
+        z: 0.0
+      orientation: 
+        x: -0.0
+        y: -0.0
+        z: -0.00330721051445
+        w: 0.999994531164
+  - 
+    trajectory_id: 0
+    submap_index: 2
+    submap_version: 170
+    pose: 
+      position: 
+        x: 1.31840766185
+        y: 1.11963570733
+        z: 0.0
+      orientation: 
+        x: -0.0
+        y: -0.0
+        z: -0.00383292457882
+        w: 0.999992654318
+  - 
+    trajectory_id: 0
+    submap_index: 3
+    submap_version: 80
+    pose: 
+      position: 
+        x: 1.62208459761
+        y: 0.684989136517
+        z: 0.0
+      orientation: 
+        x: -0.0
+        y: -0.0
+        z: -0.00387704655809
+        w: 0.999992484227
+---
+header: 
+  seq: 298
+  stamp: 
+    secs: 2460
+    nsecs: 430000000
+  frame_id: "map"
+submap: 
+  - 
+    trajectory_id: 0
+    submap_index: 0
+    submap_version: 180
+    pose: 
+      position: 
+        x: 0.0
+        y: 0.0
+        z: 0.0
+      orientation: 
+        x: 0.0
+        y: 0.0
+        z: 0.0
+        w: 1.0
+  - 
+    trajectory_id: 0
+    submap_index: 1
+    submap_version: 180
+    pose: 
+      position: 
+        x: 1.27830691542
+        y: 0.0956448150308
+        z: 0.0
+      orientation: 
+        x: 0.0
+        y: 0.0
+        z: 0.000144147317248
+        w: 0.999999989611
+  - 
+    trajectory_id: 0
+    submap_index: 2
+    submap_version: 180
+    pose: 
+      position: 
+        x: 1.45985476521
+        y: 0.498235780995
+        z: 0.0
+      orientation: 
+        x: 0.0
+        y: 0.0
+        z: 0.00196915377733
+        w: 0.999998061215
+  - 
+    trajectory_id: 0
+    submap_index: 3
+    submap_version: 120
+    pose: 
+      position: 
+        x: 1.3498546518
+        y: 1.21604506215
+        z: 0.0
+      orientation: 
+        x: 0.0
+        y: 0.0
+        z: 0.00106097717386
+        w: 0.999999437164
+  - 
+    trajectory_id: 0
+    submap_index: 4
+    submap_version: 30
+    pose: 
+      position: 
+        x: 1.29100730376
+        y: 1.82426036334
+        z: 0.0
+      orientation: 
+        x: 0.0
+        y: 0.0
+        z: 0.00160718015404
+        w: 0.999998708485
+---
+header: 
+  seq: 302
+  stamp: 
+    secs: 2460
+    nsecs: 580000000
+  frame_id: "map"
+submap: 
+  - 
+    trajectory_id: 0
+    submap_index: 0
+    submap_version: 180
+    pose: 
+      position: 
+        x: 0.0
+        y: 0.0
+        z: 0.0
+      orientation: 
+        x: 0.0
+        y: 0.0
+        z: 0.0
+        w: 1.0
+  - 
+    trajectory_id: 0
+    submap_index: 1
+    submap_version: 180
+    pose: 
+      position: 
+        x: 0.890666534543
+        y: 0.473671888808
+        z: 0.0
+      orientation: 
+        x: -0.0
+        y: -0.0
+        z: -0.00330721051445
+        w: 0.999994531164
+  - 
+    trajectory_id: 0
+    submap_index: 2
+    submap_version: 171
+    pose: 
+      position: 
+        x: 1.31840766185
+        y: 1.11963570733
+        z: 0.0
+      orientation: 
+        x: -0.0
+        y: -0.0
+        z: -0.00383292457882
+        w: 0.999992654318
+  - 
+    trajectory_id: 0
+    submap_index: 3
+    submap_version: 81
+    pose: 
+      position: 
+        x: 1.62208459761
+        y: 0.684989136517
+        z: 0.0
+      orientation: 
+        x: -0.0
+        y: -0.0
+        z: -0.00387704655809
+        w: 0.999992484227
+---
+header: 
+  seq: 299
+  stamp: 
+    secs: 2460
+    nsecs: 720000000
+  frame_id: "map"
+submap: 
+  - 
+    trajectory_id: 0
+    submap_index: 0
+    submap_version: 180
+    pose: 
+      position: 
+        x: 0.0
+        y: 0.0
+        z: 0.0
+      orientation: 
+        x: 0.0
+        y: 0.0
+        z: 0.0
+        w: 1.0
+  - 
+    trajectory_id: 0
+    submap_index: 1
+    submap_version: 180
+    pose: 
+      position: 
+        x: 1.27830691542
+        y: 0.0956448150308
+        z: 0.0
+      orientation: 
+        x: 0.0
+        y: 0.0
+        z: 0.000144147317248
+        w: 0.999999989611
+  - 
+    trajectory_id: 0
+    submap_index: 2
+    submap_version: 180
+    pose: 
+      position: 
+        x: 1.45985476521
+        y: 0.498235780995
+        z: 0.0
+      orientation: 
+        x: 0.0
+        y: 0.0
+        z: 0.00196915377733
+        w: 0.999998061215
+  - 
+    trajectory_id: 0
+    submap_index: 3
+    submap_version: 120
+    pose: 
+      position: 
+        x: 1.3498546518
+        y: 1.21604506215
+        z: 0.0
+      orientation: 
+        x: 0.0
+        y: 0.0
+        z: 0.00106097717386
+        w: 0.999999437164
+  - 
+    trajectory_id: 0
+    submap_index: 4
+    submap_version: 30
+    pose: 
+      position: 
+        x: 1.29100730376
+        y: 1.82426036334
+        z: 0.0
+      orientation: 
+        x: 0.0
+        y: 0.0
+        z: 0.00160718015404
+        w: 0.999998708485
+---
+header: 
+  seq: 303
+  stamp: 
+    secs: 2460
+    nsecs: 890000000
+  frame_id: "map"
+submap: 
+  - 
+    trajectory_id: 0
+    submap_index: 0
+    submap_version: 180
+    pose: 
+      position: 
+        x: 0.0
+        y: 0.0
+        z: 0.0
+      orientation: 
+        x: 0.0
+        y: 0.0
+        z: 0.0
+        w: 1.0
+  - 
+    trajectory_id: 0
+    submap_index: 1
+    submap_version: 180
+    pose: 
+      position: 
+        x: 0.890666534543
+        y: 0.473671888808
+        z: 0.0
+      orientation: 
+        x: -0.0
+        y: -0.0
+        z: -0.00330721051445
+        w: 0.999994531164
+  - 
+    trajectory_id: 0
+    submap_index: 2
+    submap_version: 172
+    pose: 
+      position: 
+        x: 1.31840766185
+        y: 1.11963570733
+        z: 0.0
+      orientation: 
+        x: -0.0
+        y: -0.0
+        z: -0.00383292457882
+        w: 0.999992654318
+  - 
+    trajectory_id: 0
+    submap_index: 3
+    submap_version: 82
+    pose: 
+      position: 
+        x: 1.62208459761
+        y: 0.684989136517
+        z: 0.0
+      orientation: 
+        x: -0.0
+        y: -0.0
+        z: -0.00387704655809
+        w: 0.999992484227
+---
+header: 
+  seq: 300
+  stamp: 
+    secs: 2461
+    nsecs:  20000000
+  frame_id: "map"
+submap: 
+  - 
+    trajectory_id: 0
+    submap_index: 0
+    submap_version: 180
+    pose: 
+      position: 
+        x: 0.0
+        y: 0.0
+        z: 0.0
+      orientation: 
+        x: 0.0
+        y: 0.0
+        z: 0.0
+        w: 1.0
+  - 
+    trajectory_id: 0
+    submap_index: 1
+    submap_version: 180
+    pose: 
+      position: 
+        x: 1.27830691542
+        y: 0.0956448150308
+        z: 0.0
+      orientation: 
+        x: 0.0
+        y: 0.0
+        z: 0.000144147317248
+        w: 0.999999989611
+  - 
+    trajectory_id: 0
+    submap_index: 2
+    submap_version: 180
+    pose: 
+      position: 
+        x: 1.45985476521
+        y: 0.498235780995
+        z: 0.0
+      orientation: 
+        x: 0.0
+        y: 0.0
+        z: 0.00196915377733
+        w: 0.999998061215
+  - 
+    trajectory_id: 0
+    submap_index: 3
+    submap_version: 120
+    pose: 
+      position: 
+        x: 1.3498546518
+        y: 1.21604506215
+        z: 0.0
+      orientation: 
+        x: 0.0
+        y: 0.0
+        z: 0.00106097717386
+        w: 0.999999437164
+  - 
+    trajectory_id: 0
+    submap_index: 4
+    submap_version: 30
+    pose: 
+      position: 
+        x: 1.29100730376
+        y: 1.82426036334
+        z: 0.0
+      orientation: 
+        x: 0.0
+        y: 0.0
+        z: 0.00160718015404
+        w: 0.999998708485
+---
+header: 
+  seq: 304
+  stamp: 
+    secs: 2461
+    nsecs: 210000000
+  frame_id: "map"
+submap: 
+  - 
+    trajectory_id: 0
+    submap_index: 0
+    submap_version: 180
+    pose: 
+      position: 
+        x: 0.0
+        y: 0.0
+        z: 0.0
+      orientation: 
+        x: 0.0
+        y: 0.0
+        z: 0.0
+        w: 1.0
+  - 
+    trajectory_id: 0
+    submap_index: 1
+    submap_version: 180
+    pose: 
+      position: 
+        x: 0.890666534543
+        y: 0.473671888808
+        z: 0.0
+      orientation: 
+        x: -0.0
+        y: -0.0
+        z: -0.00330721051445
+        w: 0.999994531164
+  - 
+    trajectory_id: 0
+    submap_index: 2
+    submap_version: 174
+    pose: 
+      position: 
+        x: 1.31840766185
+        y: 1.11963570733
+        z: 0.0
+      orientation: 
+        x: -0.0
+        y: -0.0
+        z: -0.00383292457882
+        w: 0.999992654318
+  - 
+    trajectory_id: 0
+    submap_index: 3
+    submap_version: 84
+    pose: 
+      position: 
+        x: 1.62208459761
+        y: 0.684989136517
+        z: 0.0
+      orientation: 
+        x: -0.0
+        y: -0.0
+        z: -0.00387704655809
+        w: 0.999992484227
+---
+header: 
+  seq: 301
+  stamp: 
+    secs: 2461
+    nsecs: 330000000
+  frame_id: "map"
+submap: 
+  - 
+    trajectory_id: 0
+    submap_index: 0
+    submap_version: 180
+    pose: 
+      position: 
+        x: 0.0
+        y: 0.0
+        z: 0.0
+      orientation: 
+        x: 0.0
+        y: 0.0
+        z: 0.0
+        w: 1.0
+  - 
+    trajectory_id: 0
+    submap_index: 1
+    submap_version: 180
+    pose: 
+      position: 
+        x: 1.27830691542
+        y: 0.0956448150308
+        z: 0.0
+      orientation: 
+        x: 0.0
+        y: 0.0
+        z: 0.000144147317248
+        w: 0.999999989611
+  - 
+    trajectory_id: 0
+    submap_index: 2
+    submap_version: 180
+    pose: 
+      position: 
+        x: 1.45985476521
+        y: 0.498235780995
+        z: 0.0
+      orientation: 
+        x: 0.0
+        y: 0.0
+        z: 0.00196915377733
+        w: 0.999998061215
+  - 
+    trajectory_id: 0
+    submap_index: 3
+    submap_version: 121
+    pose: 
+      position: 
+        x: 1.3498546518
+        y: 1.21604506215
+        z: 0.0
+      orientation: 
+        x: 0.0
+        y: 0.0
+        z: 0.00106097717386
+        w: 0.999999437164
+  - 
+    trajectory_id: 0
+    submap_index: 4
+    submap_version: 31
+    pose: 
+      position: 
+        x: 1.29100730376
+        y: 1.82426036334
+        z: 0.0
+      orientation: 
+        x: 0.0
+        y: 0.0
+        z: 0.00160718015404
+        w: 0.999998708485
+---
+header: 
+  seq: 305
+  stamp: 
+    secs: 2461
+    nsecs: 510000000
+  frame_id: "map"
+submap: 
+  - 
+    trajectory_id: 0
+    submap_index: 0
+    submap_version: 180
+    pose: 
+      position: 
+        x: 0.0
+        y: 0.0
+        z: 0.0
+      orientation: 
+        x: 0.0
+        y: 0.0
+        z: 0.0
+        w: 1.0
+  - 
+    trajectory_id: 0
+    submap_index: 1
+    submap_version: 180
+    pose: 
+      position: 
+        x: 0.890666534543
+        y: 0.473671888808
+        z: 0.0
+      orientation: 
+        x: -0.0
+        y: -0.0
+        z: -0.00330721051445
+        w: 0.999994531164
+  - 
+    trajectory_id: 0
+    submap_index: 2
+    submap_version: 175
+    pose: 
+      position: 
+        x: 1.31840766185
+        y: 1.11963570733
+        z: 0.0
+      orientation: 
+        x: -0.0
+        y: -0.0
+        z: -0.00383292457882
+        w: 0.999992654318
+  - 
+    trajectory_id: 0
+    submap_index: 3
+    submap_version: 85
+    pose: 
+      position: 
+        x: 1.62208459761
+        y: 0.684989136517
+        z: 0.0
+      orientation: 
+        x: -0.0
+        y: -0.0
+        z: -0.00387704655809
+        w: 0.999992484227
+---
+header: 
+  seq: 302
+  stamp: 
+    secs: 2461
+    nsecs: 620000000
+  frame_id: "map"
+submap: 
+  - 
+    trajectory_id: 0
+    submap_index: 0
+    submap_version: 180
+    pose: 
+      position: 
+        x: 0.0
+        y: 0.0
+        z: 0.0
+      orientation: 
+        x: 0.0
+        y: 0.0
+        z: 0.0
+        w: 1.0
+  - 
+    trajectory_id: 0
+    submap_index: 1
+    submap_version: 180
+    pose: 
+      position: 
+        x: 1.27830691542
+        y: 0.0956448150308
+        z: 0.0
+      orientation: 
+        x: 0.0
+        y: 0.0
+        z: 0.000144147317248
+        w: 0.999999989611
+  - 
+    trajectory_id: 0
+    submap_index: 2
+    submap_version: 180
+    pose: 
+      position: 
+        x: 1.45985476521
+        y: 0.498235780995
+        z: 0.0
+      orientation: 
+        x: 0.0
+        y: 0.0
+        z: 0.00196915377733
+        w: 0.999998061215
+  - 
+    trajectory_id: 0
+    submap_index: 3
+    submap_version: 123
+    pose: 
+      position: 
+        x: 1.3498546518
+        y: 1.21604506215
+        z: 0.0
+      orientation: 
+        x: 0.0
+        y: 0.0
+        z: 0.00106097717386
+        w: 0.999999437164
+  - 
+    trajectory_id: 0
+    submap_index: 4
+    submap_version: 33
+    pose: 
+      position: 
+        x: 1.29100730376
+        y: 1.82426036334
+        z: 0.0
+      orientation: 
+        x: 0.0
+        y: 0.0
+        z: 0.00160718015404
+        w: 0.999998708485
+---
+header: 
+  seq: 306
+  stamp: 
+    secs: 2461
+    nsecs: 780000000
+  frame_id: "map"
+submap: 
+  - 
+    trajectory_id: 0
+    submap_index: 0
+    submap_version: 180
+    pose: 
+      position: 
+        x: 0.0
+        y: 0.0
+        z: 0.0
+      orientation: 
+        x: 0.0
+        y: 0.0
+        z: 0.0
+        w: 1.0
+  - 
+    trajectory_id: 0
+    submap_index: 1
+    submap_version: 180
+    pose: 
+      position: 
+        x: 0.890666534543
+        y: 0.473671888808
+        z: 0.0
+      orientation: 
+        x: -0.0
+        y: -0.0
+        z: -0.00330721051445
+        w: 0.999994531164
+  - 
+    trajectory_id: 0
+    submap_index: 2
+    submap_version: 176
+    pose: 
+      position: 
+        x: 1.31840766185
+        y: 1.11963570733
+        z: 0.0
+      orientation: 
+        x: -0.0
+        y: -0.0
+        z: -0.00383292457882
+        w: 0.999992654318
+  - 
+    trajectory_id: 0
+    submap_index: 3
+    submap_version: 86
+    pose: 
+      position: 
+        x: 1.62208459761
+        y: 0.684989136517
+        z: 0.0
+      orientation: 
+        x: -0.0
+        y: -0.0
+        z: -0.00387704655809
+        w: 0.999992484227
+---
+header: 
+  seq: 303
+  stamp: 
+    secs: 2461
+    nsecs: 920000000
+  frame_id: "map"
+submap: 
+  - 
+    trajectory_id: 0
+    submap_index: 0
+    submap_version: 180
+    pose: 
+      position: 
+        x: 0.0
+        y: 0.0
+        z: 0.0
+      orientation: 
+        x: 0.0
+        y: 0.0
+        z: 0.0
+        w: 1.0
+  - 
+    trajectory_id: 0
+    submap_index: 1
+    submap_version: 180
+    pose: 
+      position: 
+        x: 1.27830691542
+        y: 0.0956448150308
+        z: 0.0
+      orientation: 
+        x: 0.0
+        y: 0.0
+        z: 0.000144147317248
+        w: 0.999999989611
+  - 
+    trajectory_id: 0
+    submap_index: 2
+    submap_version: 180
+    pose: 
+      position: 
+        x: 1.45985476521
+        y: 0.498235780995
+        z: 0.0
+      orientation: 
+        x: 0.0
+        y: 0.0
+        z: 0.00196915377733
+        w: 0.999998061215
+  - 
+    trajectory_id: 0
+    submap_index: 3
+    submap_version: 126
+    pose: 
+      position: 
+        x: 1.3498546518
+        y: 1.21604506215
+        z: 0.0
+      orientation: 
+        x: 0.0
+        y: 0.0
+        z: 0.00106097717386
+        w: 0.999999437164
+  - 
+    trajectory_id: 0
+    submap_index: 4
+    submap_version: 36
+    pose: 
+      position: 
+        x: 1.29100730376
+        y: 1.82426036334
+        z: 0.0
+      orientation: 
+        x: 0.0
+        y: 0.0
+        z: 0.00160718015404
+        w: 0.999998708485
+---
+header: 
+  seq: 307
+  stamp: 
+    secs: 2462
+    nsecs:  80000000
+  frame_id: "map"
+submap: 
+  - 
+    trajectory_id: 0
+    submap_index: 0
+    submap_version: 180
+    pose: 
+      position: 
+        x: 0.0
+        y: 0.0
+        z: 0.0
+      orientation: 
+        x: 0.0
+        y: 0.0
+        z: 0.0
+        w: 1.0
+  - 
+    trajectory_id: 0
+    submap_index: 1
+    submap_version: 180
+    pose: 
+      position: 
+        x: 0.890666534543
+        y: 0.473671888808
+        z: 0.0
+      orientation: 
+        x: -0.0
+        y: -0.0
+        z: -0.00330721051445
+        w: 0.999994531164
+  - 
+    trajectory_id: 0
+    submap_index: 2
+    submap_version: 178
+    pose: 
+      position: 
+        x: 1.31840766185
+        y: 1.11963570733
+        z: 0.0
+      orientation: 
+        x: -0.0
+        y: -0.0
+        z: -0.00383292457882
+        w: 0.999992654318
+  - 
+    trajectory_id: 0
+    submap_index: 3
+    submap_version: 88
+    pose: 
+      position: 
+        x: 1.62208459761
+        y: 0.684989136517
+        z: 0.0
+      orientation: 
+        x: -0.0
+        y: -0.0
+        z: -0.00387704655809
+        w: 0.999992484227
+---
+header: 
+  seq: 304
+  stamp: 
+    secs: 2462
+    nsecs: 240000000
+  frame_id: "map"
+submap: 
+  - 
+    trajectory_id: 0
+    submap_index: 0
+    submap_version: 180
+    pose: 
+      position: 
+        x: 0.0
+        y: 0.0
+        z: 0.0
+      orientation: 
+        x: 0.0
+        y: 0.0
+        z: 0.0
+        w: 1.0
+  - 
+    trajectory_id: 0
+    submap_index: 1
+    submap_version: 180
+    pose: 
+      position: 
+        x: 1.27830691542
+        y: 0.0956448150308
+        z: 0.0
+      orientation: 
+        x: 0.0
+        y: 0.0
+        z: 0.000144147317248
+        w: 0.999999989611
+  - 
+    trajectory_id: 0
+    submap_index: 2
+    submap_version: 180
+    pose: 
+      position: 
+        x: 1.45985476521
+        y: 0.498235780995
+        z: 0.0
+      orientation: 
+        x: 0.0
+        y: 0.0
+        z: 0.00196915377733
+        w: 0.999998061215
+  - 
+    trajectory_id: 0
+    submap_index: 3
+    submap_version: 129
+    pose: 
+      position: 
+        x: 1.3498546518
+        y: 1.21604506215
+        z: 0.0
+      orientation: 
+        x: 0.0
+        y: 0.0
+        z: 0.00106097717386
+        w: 0.999999437164
+  - 
+    trajectory_id: 0
+    submap_index: 4
+    submap_version: 39
+    pose: 
+      position: 
+        x: 1.29100730376
+        y: 1.82426036334
+        z: 0.0
+      orientation: 
+        x: 0.0
+        y: 0.0
+        z: 0.00160718015404
+        w: 0.999998708485
+---
+header: 
+  seq: 308
+  stamp: 
+    secs: 2462
+    nsecs: 380000000
+  frame_id: "map"
+submap: 
+  - 
+    trajectory_id: 0
+    submap_index: 0
+    submap_version: 180
+    pose: 
+      position: 
+        x: 0.0
+        y: 0.0
+        z: 0.0
+      orientation: 
+        x: 0.0
+        y: 0.0
+        z: 0.0
+        w: 1.0
+  - 
+    trajectory_id: 0
+    submap_index: 1
+    submap_version: 180
+    pose: 
+      position: 
+        x: 0.890666534543
+        y: 0.473671888808
+        z: 0.0
+      orientation: 
+        x: -0.0
+        y: -0.0
+        z: -0.00330721051445
+        w: 0.999994531164
+  - 
+    trajectory_id: 0
+    submap_index: 2
+    submap_version: 180
+    pose: 
+      position: 
+        x: 1.31840766185
+        y: 1.11963570733
+        z: 0.0
+      orientation: 
+        x: -0.0
+        y: -0.0
+        z: -0.00383292457882
+        w: 0.999992654318
+  - 
+    trajectory_id: 0
+    submap_index: 3
+    submap_version: 90
+    pose: 
+      position: 
+        x: 1.62208459761
+        y: 0.684989136517
+        z: 0.0
+      orientation: 
+        x: -0.0
+        y: -0.0
+        z: -0.00387704655809
+        w: 0.999992484227
+---
+header: 
+  seq: 305
+  stamp: 
+    secs: 2462
+    nsecs: 500000000
+  frame_id: "map"
+submap: 
+  - 
+    trajectory_id: 0
+    submap_index: 0
+    submap_version: 180
+    pose: 
+      position: 
+        x: 0.0
+        y: 0.0
+        z: 0.0
+      orientation: 
+        x: 0.0
+        y: 0.0
+        z: 0.0
+        w: 1.0
+  - 
+    trajectory_id: 0
+    submap_index: 1
+    submap_version: 180
+    pose: 
+      position: 
+        x: 1.27830691542
+        y: 0.0956448150308
+        z: 0.0
+      orientation: 
+        x: 0.0
+        y: 0.0
+        z: 0.000144147317248
+        w: 0.999999989611
+  - 
+    trajectory_id: 0
+    submap_index: 2
+    submap_version: 180
+    pose: 
+      position: 
+        x: 1.45985476521
+        y: 0.498235780995
+        z: 0.0
+      orientation: 
+        x: 0.0
+        y: 0.0
+        z: 0.00196915377733
+        w: 0.999998061215
+  - 
+    trajectory_id: 0
+    submap_index: 3
+    submap_version: 129
+    pose: 
+      position: 
+        x: 1.3498546518
+        y: 1.21604506215
+        z: 0.0
+      orientation: 
+        x: 0.0
+        y: 0.0
+        z: 0.00106097717386
+        w: 0.999999437164
+  - 
+    trajectory_id: 0
+    submap_index: 4
+    submap_version: 39
+    pose: 
+      position: 
+        x: 1.29100730376
+        y: 1.82426036334
+        z: 0.0
+      orientation: 
+        x: 0.0
+        y: 0.0
+        z: 0.00160718015404
+        w: 0.999998708485
+---
+header: 
+  seq: 309
+  stamp: 
+    secs: 2462
+    nsecs: 690000000
+  frame_id: "map"
+submap: 
+  - 
+    trajectory_id: 0
+    submap_index: 0
+    submap_version: 180
+    pose: 
+      position: 
+        x: 0.0
+        y: 0.0
+        z: 0.0
+      orientation: 
+        x: 0.0
+        y: 0.0
+        z: 0.0
+        w: 1.0
+  - 
+    trajectory_id: 0
+    submap_index: 1
+    submap_version: 180
+    pose: 
+      position: 
+        x: 0.890666534543
+        y: 0.473671888808
+        z: 0.0
+      orientation: 
+        x: -0.0
+        y: -0.0
+        z: -0.00330721051445
+        w: 0.999994531164
+  - 
+    trajectory_id: 0
+    submap_index: 2
+    submap_version: 180
+    pose: 
+      position: 
+        x: 1.31840766185
+        y: 1.11963570733
+        z: 0.0
+      orientation: 
+        x: -0.0
+        y: -0.0
+        z: -0.00383292457882
+        w: 0.999992654318
+  - 
+    trajectory_id: 0
+    submap_index: 3
+    submap_version: 93
+    pose: 
+      position: 
+        x: 1.62208459761
+        y: 0.684989136517
+        z: 0.0
+      orientation: 
+        x: -0.0
+        y: -0.0
+        z: -0.00387704655809
+        w: 0.999992484227
+  - 
+    trajectory_id: 0
+    submap_index: 4
+    submap_version: 3
+    pose: 
+      position: 
+        x: 1.66891164749
+        y: -0.356958157566
+        z: 0.0
+      orientation: 
+        x: 0.0
+        y: 0.0
+        z: -0.00387704655809
+        w: 0.999992484227
+---
+header: 
+  seq: 306
+  stamp: 
+    secs: 2462
+    nsecs: 810000000
+  frame_id: "map"
+submap: 
+  - 
+    trajectory_id: 0
+    submap_index: 0
+    submap_version: 180
+    pose: 
+      position: 
+        x: 0.0
+        y: 0.0
+        z: 0.0
+      orientation: 
+        x: 0.0
+        y: 0.0
+        z: 0.0
+        w: 1.0
+  - 
+    trajectory_id: 0
+    submap_index: 1
+    submap_version: 180
+    pose: 
+      position: 
+        x: 1.27830691542
+        y: 0.0956448150308
+        z: 0.0
+      orientation: 
+        x: 0.0
+        y: 0.0
+        z: 0.000144147317248
+        w: 0.999999989611
+  - 
+    trajectory_id: 0
+    submap_index: 2
+    submap_version: 180
+    pose: 
+      position: 
+        x: 1.45985476521
+        y: 0.498235780995
+        z: 0.0
+      orientation: 
+        x: 0.0
+        y: 0.0
+        z: 0.00196915377733
+        w: 0.999998061215
+  - 
+    trajectory_id: 0
+    submap_index: 3
+    submap_version: 130
+    pose: 
+      position: 
+        x: 1.3498546518
+        y: 1.21604506215
+        z: 0.0
+      orientation: 
+        x: 0.0
+        y: 0.0
+        z: 0.00106097717386
+        w: 0.999999437164
+  - 
+    trajectory_id: 0
+    submap_index: 4
+    submap_version: 40
+    pose: 
+      position: 
+        x: 1.29100730376
+        y: 1.82426036334
+        z: 0.0
+      orientation: 
+        x: 0.0
+        y: 0.0
+        z: 0.00160718015404
+        w: 0.999998708485
+---
+header: 
+  seq: 310
+  stamp: 
+    secs: 2462
+    nsecs: 980000000
+  frame_id: "map"
+submap: 
+  - 
+    trajectory_id: 0
+    submap_index: 0
+    submap_version: 180
+    pose: 
+      position: 
+        x: 0.0
+        y: 0.0
+        z: 0.0
+      orientation: 
+        x: 0.0
+        y: 0.0
+        z: 0.0
+        w: 1.0
+  - 
+    trajectory_id: 0
+    submap_index: 1
+    submap_version: 180
+    pose: 
+      position: 
+        x: 0.894102125249
+        y: 0.472420966466
+        z: 0.0
+      orientation: 
+        x: -0.0
+        y: -0.0
+        z: -0.00307975565262
+        w: 0.999995257541
+  - 
+    trajectory_id: 0
+    submap_index: 2
+    submap_version: 180
+    pose: 
+      position: 
+        x: 1.29712258881
+        y: 1.12426806177
+        z: 0.0
+      orientation: 
+        x: -0.0
+        y: -0.0
+        z: -0.00428755700987
+        w: 0.999990808385
+  - 
+    trajectory_id: 0
+    submap_index: 3
+    submap_version: 96
+    pose: 
+      position: 
+        x: 1.60835018407
+        y: 0.689456765833
+        z: 0.0
+      orientation: 
+        x: -0.0
+        y: -0.0
+        z: -0.00315347537535
+        w: 0.999995027784
+  - 
+    trajectory_id: 0
+    submap_index: 4
+    submap_version: 6
+    pose: 
+      position: 
+        x: 1.65365307979
+        y: -0.35123747765
+        z: 0.0
+      orientation: 
+        x: -0.0
+        y: -0.0
+        z: -0.00233326493111
+        w: 0.999997277934
+---
+header: 
+  seq: 307
+  stamp: 
+    secs: 2463
+    nsecs: 100000000
+  frame_id: "map"
+submap: 
+  - 
+    trajectory_id: 0
+    submap_index: 0
+    submap_version: 180
+    pose: 
+      position: 
+        x: 0.0
+        y: 0.0
+        z: 0.0
+      orientation: 
+        x: 0.0
+        y: 0.0
+        z: 0.0
+        w: 1.0
+  - 
+    trajectory_id: 0
+    submap_index: 1
+    submap_version: 180
+    pose: 
+      position: 
+        x: 1.27830691542
+        y: 0.0956448150308
+        z: 0.0
+      orientation: 
+        x: 0.0
+        y: 0.0
+        z: 0.000144147317248
+        w: 0.999999989611
+  - 
+    trajectory_id: 0
+    submap_index: 2
+    submap_version: 180
+    pose: 
+      position: 
+        x: 1.45985476521
+        y: 0.498235780995
+        z: 0.0
+      orientation: 
+        x: 0.0
+        y: 0.0
+        z: 0.00196915377733
+        w: 0.999998061215
+  - 
+    trajectory_id: 0
+    submap_index: 3
+    submap_version: 133
+    pose: 
+      position: 
+        x: 1.3498546518
+        y: 1.21604506215
+        z: 0.0
+      orientation: 
+        x: 0.0
+        y: 0.0
+        z: 0.00106097717386
+        w: 0.999999437164
+  - 
+    trajectory_id: 0
+    submap_index: 4
+    submap_version: 43
+    pose: 
+      position: 
+        x: 1.29100730376
+        y: 1.82426036334
+        z: 0.0
+      orientation: 
+        x: 0.0
+        y: 0.0
+        z: 0.00160718015404
+        w: 0.999998708485
+---
+header: 
+  seq: 311
+  stamp: 
+    secs: 2463
+    nsecs: 260000000
+  frame_id: "map"
+submap: 
+  - 
+    trajectory_id: 0
+    submap_index: 0
+    submap_version: 180
+    pose: 
+      position: 
+        x: 0.0
+        y: 0.0
+        z: 0.0
+      orientation: 
+        x: 0.0
+        y: 0.0
+        z: 0.0
+        w: 1.0
+  - 
+    trajectory_id: 0
+    submap_index: 1
+    submap_version: 180
+    pose: 
+      position: 
+        x: 0.894102125249
+        y: 0.472420966466
+        z: 0.0
+      orientation: 
+        x: -0.0
+        y: -0.0
+        z: -0.00307975565262
+        w: 0.999995257541
+  - 
+    trajectory_id: 0
+    submap_index: 2
+    submap_version: 180
+    pose: 
+      position: 
+        x: 1.29712258881
+        y: 1.12426806177
+        z: 0.0
+      orientation: 
+        x: -0.0
+        y: -0.0
+        z: -0.00428755700987
+        w: 0.999990808385
+  - 
+    trajectory_id: 0
+    submap_index: 3
+    submap_version: 97
+    pose: 
+      position: 
+        x: 1.60835018407
+        y: 0.689456765833
+        z: 0.0
+      orientation: 
+        x: -0.0
+        y: -0.0
+        z: -0.00315347537535
+        w: 0.999995027784
+  - 
+    trajectory_id: 0
+    submap_index: 4
+    submap_version: 7
+    pose: 
+      position: 
+        x: 1.65365307979
+        y: -0.35123747765
+        z: 0.0
+      orientation: 
+        x: -0.0
+        y: -0.0
+        z: -0.00233326493111
+        w: 0.999997277934
+---
+header: 
+  seq: 308
+  stamp: 
+    secs: 2463
+    nsecs: 410000000
+  frame_id: "map"
+submap: 
+  - 
+    trajectory_id: 0
+    submap_index: 0
+    submap_version: 180
+    pose: 
+      position: 
+        x: 0.0
+        y: 0.0
+        z: 0.0
+      orientation: 
+        x: 0.0
+        y: 0.0
+        z: 0.0
+        w: 1.0
+  - 
+    trajectory_id: 0
+    submap_index: 1
+    submap_version: 180
+    pose: 
+      position: 
+        x: 1.27830691542
+        y: 0.0956448150308
+        z: 0.0
+      orientation: 
+        x: 0.0
+        y: 0.0
+        z: 0.000144147317248
+        w: 0.999999989611
+  - 
+    trajectory_id: 0
+    submap_index: 2
+    submap_version: 180
+    pose: 
+      position: 
+        x: 1.45985476521
+        y: 0.498235780995
+        z: 0.0
+      orientation: 
+        x: 0.0
+        y: 0.0
+        z: 0.00196915377733
+        w: 0.999998061215
+  - 
+    trajectory_id: 0
+    submap_index: 3
+    submap_version: 137
+    pose: 
+      position: 
+        x: 1.3498546518
+        y: 1.21604506215
+        z: 0.0
+      orientation: 
+        x: 0.0
+        y: 0.0
+        z: 0.00106097717386
+        w: 0.999999437164
+  - 
+    trajectory_id: 0
+    submap_index: 4
+    submap_version: 47
+    pose: 
+      position: 
+        x: 1.29100730376
+        y: 1.82426036334
+        z: 0.0
+      orientation: 
+        x: 0.0
+        y: 0.0
+        z: 0.00160718015404
+        w: 0.999998708485
+---
+header: 
+  seq: 312
+  stamp: 
+    secs: 2463
+    nsecs: 590000000
+  frame_id: "map"
+submap: 
+  - 
+    trajectory_id: 0
+    submap_index: 0
+    submap_version: 180
+    pose: 
+      position: 
+        x: 0.0
+        y: 0.0
+        z: 0.0
+      orientation: 
+        x: 0.0
+        y: 0.0
+        z: 0.0
+        w: 1.0
+  - 
+    trajectory_id: 0
+    submap_index: 1
+    submap_version: 180
+    pose: 
+      position: 
+        x: 0.894102125249
+        y: 0.472420966466
+        z: 0.0
+      orientation: 
+        x: -0.0
+        y: -0.0
+        z: -0.00307975565262
+        w: 0.999995257541
+  - 
+    trajectory_id: 0
+    submap_index: 2
+    submap_version: 180
+    pose: 
+      position: 
+        x: 1.29712258881
+        y: 1.12426806177
+        z: 0.0
+      orientation: 
+        x: -0.0
+        y: -0.0
+        z: -0.00428755700987
+        w: 0.999990808385
+  - 
+    trajectory_id: 0
+    submap_index: 3
+    submap_version: 97
+    pose: 
+      position: 
+        x: 1.60835018407
+        y: 0.689456765833
+        z: 0.0
+      orientation: 
+        x: -0.0
+        y: -0.0
+        z: -0.00315347537535
+        w: 0.999995027784
+  - 
+    trajectory_id: 0
+    submap_index: 4
+    submap_version: 7
+    pose: 
+      position: 
+        x: 1.65365307979
+        y: -0.35123747765
+        z: 0.0
+      orientation: 
+        x: -0.0
+        y: -0.0
+        z: -0.00233326493111
+        w: 0.999997277934
+---
+header: 
+  seq: 309
+  stamp: 
+    secs: 2463
+    nsecs: 710000000
+  frame_id: "map"
+submap: 
+  - 
+    trajectory_id: 0
+    submap_index: 0
+    submap_version: 180
+    pose: 
+      position: 
+        x: 0.0
+        y: 0.0
+        z: 0.0
+      orientation: 
+        x: 0.0
+        y: 0.0
+        z: 0.0
+        w: 1.0
+  - 
+    trajectory_id: 0
+    submap_index: 1
+    submap_version: 180
+    pose: 
+      position: 
+        x: 1.27830691542
+        y: 0.0956448150308
+        z: 0.0
+      orientation: 
+        x: 0.0
+        y: 0.0
+        z: 0.000144147317248
+        w: 0.999999989611
+  - 
+    trajectory_id: 0
+    submap_index: 2
+    submap_version: 180
+    pose: 
+      position: 
+        x: 1.45985476521
+        y: 0.498235780995
+        z: 0.0
+      orientation: 
+        x: 0.0
+        y: 0.0
+        z: 0.00196915377733
+        w: 0.999998061215
+  - 
+    trajectory_id: 0
+    submap_index: 3
+    submap_version: 142
+    pose: 
+      position: 
+        x: 1.3498546518
+        y: 1.21604506215
+        z: 0.0
+      orientation: 
+        x: 0.0
+        y: 0.0
+        z: 0.00106097717386
+        w: 0.999999437164
+  - 
+    trajectory_id: 0
+    submap_index: 4
+    submap_version: 52
+    pose: 
+      position: 
+        x: 1.29100730376
+        y: 1.82426036334
+        z: 0.0
+      orientation: 
+        x: 0.0
+        y: 0.0
+        z: 0.00160718015404
+        w: 0.999998708485
+---
+header: 
+  seq: 313
+  stamp: 
+    secs: 2463
+    nsecs: 870000000
+  frame_id: "map"
+submap: 
+  - 
+    trajectory_id: 0
+    submap_index: 0
+    submap_version: 180
+    pose: 
+      position: 
+        x: 0.0
+        y: 0.0
+        z: 0.0
+      orientation: 
+        x: 0.0
+        y: 0.0
+        z: 0.0
+        w: 1.0
+  - 
+    trajectory_id: 0
+    submap_index: 1
+    submap_version: 180
+    pose: 
+      position: 
+        x: 0.894102125249
+        y: 0.472420966466
+        z: 0.0
+      orientation: 
+        x: -0.0
+        y: -0.0
+        z: -0.00307975565262
+        w: 0.999995257541
+  - 
+    trajectory_id: 0
+    submap_index: 2
+    submap_version: 180
+    pose: 
+      position: 
+        x: 1.29712258881
+        y: 1.12426806177
+        z: 0.0
+      orientation: 
+        x: -0.0
+        y: -0.0
+        z: -0.00428755700987
+        w: 0.999990808385
+  - 
+    trajectory_id: 0
+    submap_index: 3
+    submap_version: 97
+    pose: 
+      position: 
+        x: 1.60835018407
+        y: 0.689456765833
+        z: 0.0
+      orientation: 
+        x: -0.0
+        y: -0.0
+        z: -0.00315347537535
+        w: 0.999995027784
+  - 
+    trajectory_id: 0
+    submap_index: 4
+    submap_version: 7
+    pose: 
+      position: 
+        x: 1.65365307979
+        y: -0.35123747765
+        z: 0.0
+      orientation: 
+        x: -0.0
+        y: -0.0
+        z: -0.00233326493111
+        w: 0.999997277934
+---
+header: 
+  seq: 310
+  stamp: 
+    secs: 2463
+    nsecs: 990000000
+  frame_id: "map"
+submap: 
+  - 
+    trajectory_id: 0
+    submap_index: 0
+    submap_version: 180
+    pose: 
+      position: 
+        x: 0.0
+        y: 0.0
+        z: 0.0
+      orientation: 
+        x: 0.0
+        y: 0.0
+        z: 0.0
+        w: 1.0
+  - 
+    trajectory_id: 0
+    submap_index: 1
+    submap_version: 180
+    pose: 
+      position: 
+        x: 1.27830691542
+        y: 0.0956448150308
+        z: 0.0
+      orientation: 
+        x: 0.0
+        y: 0.0
+        z: 0.000144147317248
+        w: 0.999999989611
+  - 
+    trajectory_id: 0
+    submap_index: 2
+    submap_version: 180
+    pose: 
+      position: 
+        x: 1.45985476521
+        y: 0.498235780995
+        z: 0.0
+      orientation: 
+        x: 0.0
+        y: 0.0
+        z: 0.00196915377733
+        w: 0.999998061215
+  - 
+    trajectory_id: 0
+    submap_index: 3
+    submap_version: 146
+    pose: 
+      position: 
+        x: 1.3498546518
+        y: 1.21604506215
+        z: 0.0
+      orientation: 
+        x: 0.0
+        y: 0.0
+        z: 0.00106097717386
+        w: 0.999999437164
+  - 
+    trajectory_id: 0
+    submap_index: 4
+    submap_version: 56
+    pose: 
+      position: 
+        x: 1.29100730376
+        y: 1.82426036334
+        z: 0.0
+      orientation: 
+        x: 0.0
+        y: 0.0
+        z: 0.00160718015404
+        w: 0.999998708485
+---
+header: 
+  seq: 314
+  stamp: 
+    secs: 2464
+    nsecs: 200000000
+  frame_id: "map"
+submap: 
+  - 
+    trajectory_id: 0
+    submap_index: 0
+    submap_version: 180
+    pose: 
+      position: 
+        x: 0.0
+        y: 0.0
+        z: 0.0
+      orientation: 
+        x: 0.0
+        y: 0.0
+        z: 0.0
+        w: 1.0
+  - 
+    trajectory_id: 0
+    submap_index: 1
+    submap_version: 180
+    pose: 
+      position: 
+        x: 0.894102125249
+        y: 0.472420966466
+        z: 0.0
+      orientation: 
+        x: -0.0
+        y: -0.0
+        z: -0.00307975565262
+        w: 0.999995257541
+  - 
+    trajectory_id: 0
+    submap_index: 2
+    submap_version: 180
+    pose: 
+      position: 
+        x: 1.29712258881
+        y: 1.12426806177
+        z: 0.0
+      orientation: 
+        x: -0.0
+        y: -0.0
+        z: -0.00428755700987
+        w: 0.999990808385
+  - 
+    trajectory_id: 0
+    submap_index: 3
+    submap_version: 100
+    pose: 
+      position: 
+        x: 1.60835018407
+        y: 0.689456765833
+        z: 0.0
+      orientation: 
+        x: -0.0
+        y: -0.0
+        z: -0.00315347537535
+        w: 0.999995027784
+  - 
+    trajectory_id: 0
+    submap_index: 4
+    submap_version: 10
+    pose: 
+      position: 
+        x: 1.65365307979
+        y: -0.35123747765
+        z: 0.0
+      orientation: 
+        x: -0.0
+        y: -0.0
+        z: -0.00233326493111
+        w: 0.999997277934
+---
+header: 
+  seq: 311
+  stamp: 
+    secs: 2464
+    nsecs: 280000000
+  frame_id: "map"
+submap: 
+  - 
+    trajectory_id: 0
+    submap_index: 0
+    submap_version: 180
+    pose: 
+      position: 
+        x: 0.0
+        y: 0.0
+        z: 0.0
+      orientation: 
+        x: 0.0
+        y: 0.0
+        z: 0.0
+        w: 1.0
+  - 
+    trajectory_id: 0
+    submap_index: 1
+    submap_version: 180
+    pose: 
+      position: 
+        x: 1.27830691542
+        y: 0.0956448150308
+        z: 0.0
+      orientation: 
+        x: 0.0
+        y: 0.0
+        z: 0.000144147317248
+        w: 0.999999989611
+  - 
+    trajectory_id: 0
+    submap_index: 2
+    submap_version: 180
+    pose: 
+      position: 
+        x: 1.45985476521
+        y: 0.498235780995
+        z: 0.0
+      orientation: 
+        x: 0.0
+        y: 0.0
+        z: 0.00196915377733
+        w: 0.999998061215
+  - 
+    trajectory_id: 0
+    submap_index: 3
+    submap_version: 149
+    pose: 
+      position: 
+        x: 1.3498546518
+        y: 1.21604506215
+        z: 0.0
+      orientation: 
+        x: 0.0
+        y: 0.0
+        z: 0.00106097717386
+        w: 0.999999437164
+  - 
+    trajectory_id: 0
+    submap_index: 4
+    submap_version: 59
+    pose: 
+      position: 
+        x: 1.29100730376
+        y: 1.82426036334
+        z: 0.0
+      orientation: 
+        x: 0.0
+        y: 0.0
+        z: 0.00160718015404
+        w: 0.999998708485
+---
+header: 
+  seq: 315
+  stamp: 
+    secs: 2464
+    nsecs: 440000000
+  frame_id: "map"
+submap: 
+  - 
+    trajectory_id: 0
+    submap_index: 0
+    submap_version: 180
+    pose: 
+      position: 
+        x: 0.0
+        y: 0.0
+        z: 0.0
+      orientation: 
+        x: 0.0
+        y: 0.0
+        z: 0.0
+        w: 1.0
+  - 
+    trajectory_id: 0
+    submap_index: 1
+    submap_version: 180
+    pose: 
+      position: 
+        x: 0.894102125249
+        y: 0.472420966466
+        z: 0.0
+      orientation: 
+        x: -0.0
+        y: -0.0
+        z: -0.00307975565262
+        w: 0.999995257541
+  - 
+    trajectory_id: 0
+    submap_index: 2
+    submap_version: 180
+    pose: 
+      position: 
+        x: 1.29712258881
+        y: 1.12426806177
+        z: 0.0
+      orientation: 
+        x: -0.0
+        y: -0.0
+        z: -0.00428755700987
+        w: 0.999990808385
+  - 
+    trajectory_id: 0
+    submap_index: 3
+    submap_version: 102
+    pose: 
+      position: 
+        x: 1.60835018407
+        y: 0.689456765833
+        z: 0.0
+      orientation: 
+        x: -0.0
+        y: -0.0
+        z: -0.00315347537535
+        w: 0.999995027784
+  - 
+    trajectory_id: 0
+    submap_index: 4
+    submap_version: 12
+    pose: 
+      position: 
+        x: 1.65365307979
+        y: -0.35123747765
+        z: 0.0
+      orientation: 
+        x: -0.0
+        y: -0.0
+        z: -0.00233326493111
+        w: 0.999997277934
+---
+header: 
+  seq: 312
+  stamp: 
+    secs: 2464
+    nsecs: 570000000
+  frame_id: "map"
+submap: 
+  - 
+    trajectory_id: 0
+    submap_index: 0
+    submap_version: 180
+    pose: 
+      position: 
+        x: 0.0
+        y: 0.0
+        z: 0.0
+      orientation: 
+        x: 0.0
+        y: 0.0
+        z: 0.0
+        w: 1.0
+  - 
+    trajectory_id: 0
+    submap_index: 1
+    submap_version: 180
+    pose: 
+      position: 
+        x: 1.27830691542
+        y: 0.0956448150308
+        z: 0.0
+      orientation: 
+        x: 0.0
+        y: 0.0
+        z: 0.000144147317248
+        w: 0.999999989611
+  - 
+    trajectory_id: 0
+    submap_index: 2
+    submap_version: 180
+    pose: 
+      position: 
+        x: 1.45985476521
+        y: 0.498235780995
+        z: 0.0
+      orientation: 
+        x: 0.0
+        y: 0.0
+        z: 0.00196915377733
+        w: 0.999998061215
+  - 
+    trajectory_id: 0
+    submap_index: 3
+    submap_version: 150
+    pose: 
+      position: 
+        x: 1.3498546518
+        y: 1.21604506215
+        z: 0.0
+      orientation: 
+        x: 0.0
+        y: 0.0
+        z: 0.00106097717386
+        w: 0.999999437164
+  - 
+    trajectory_id: 0
+    submap_index: 4
+    submap_version: 60
+    pose: 
+      position: 
+        x: 1.29100730376
+        y: 1.82426036334
+        z: 0.0
+      orientation: 
+        x: 0.0
+        y: 0.0
+        z: 0.00160718015404
+        w: 0.999998708485
+---
+header: 
+  seq: 316
+  stamp: 
+    secs: 2464
+    nsecs: 730000000
+  frame_id: "map"
+submap: 
+  - 
+    trajectory_id: 0
+    submap_index: 0
+    submap_version: 180
+    pose: 
+      position: 
+        x: 0.0
+        y: 0.0
+        z: 0.0
+      orientation: 
+        x: 0.0
+        y: 0.0
+        z: 0.0
+        w: 1.0
+  - 
+    trajectory_id: 0
+    submap_index: 1
+    submap_version: 180
+    pose: 
+      position: 
+        x: 0.894102125249
+        y: 0.472420966466
+        z: 0.0
+      orientation: 
+        x: -0.0
+        y: -0.0
+        z: -0.00307975565262
+        w: 0.999995257541
+  - 
+    trajectory_id: 0
+    submap_index: 2
+    submap_version: 180
+    pose: 
+      position: 
+        x: 1.29712258881
+        y: 1.12426806177
+        z: 0.0
+      orientation: 
+        x: -0.0
+        y: -0.0
+        z: -0.00428755700987
+        w: 0.999990808385
+  - 
+    trajectory_id: 0
+    submap_index: 3
+    submap_version: 102
+    pose: 
+      position: 
+        x: 1.60835018407
+        y: 0.689456765833
+        z: 0.0
+      orientation: 
+        x: -0.0
+        y: -0.0
+        z: -0.00315347537535
+        w: 0.999995027784
+  - 
+    trajectory_id: 0
+    submap_index: 4
+    submap_version: 12
+    pose: 
+      position: 
+        x: 1.65365307979
+        y: -0.35123747765
+        z: 0.0
+      orientation: 
+        x: -0.0
+        y: -0.0
+        z: -0.00233326493111
+        w: 0.999997277934
+---
+header: 
+  seq: 313
+  stamp: 
+    secs: 2464
+    nsecs: 880000000
+  frame_id: "map"
+submap: 
+  - 
+    trajectory_id: 0
+    submap_index: 0
+    submap_version: 180
+    pose: 
+      position: 
+        x: 0.0
+        y: 0.0
+        z: 0.0
+      orientation: 
+        x: 0.0
+        y: 0.0
+        z: 0.0
+        w: 1.0
+  - 
+    trajectory_id: 0
+    submap_index: 1
+    submap_version: 180
+    pose: 
+      position: 
+        x: 1.27830691542
+        y: 0.0956448150308
+        z: 0.0
+      orientation: 
+        x: 0.0
+        y: 0.0
+        z: 0.000144147317248
+        w: 0.999999989611
+  - 
+    trajectory_id: 0
+    submap_index: 2
+    submap_version: 180
+    pose: 
+      position: 
+        x: 1.45985476521
+        y: 0.498235780995
+        z: 0.0
+      orientation: 
+        x: 0.0
+        y: 0.0
+        z: 0.00196915377733
+        w: 0.999998061215
+  - 
+    trajectory_id: 0
+    submap_index: 3
+    submap_version: 152
+    pose: 
+      position: 
+        x: 1.3498546518
+        y: 1.21604506215
+        z: 0.0
+      orientation: 
+        x: 0.0
+        y: 0.0
+        z: 0.00106097717386
+        w: 0.999999437164
+  - 
+    trajectory_id: 0
+    submap_index: 4
+    submap_version: 62
+    pose: 
+      position: 
+        x: 1.29100730376
+        y: 1.82426036334
+        z: 0.0
+      orientation: 
+        x: 0.0
+        y: 0.0
+        z: 0.00160718015404
+        w: 0.999998708485
+---
+header: 
+  seq: 317
+  stamp: 
+    secs: 2465
+    nsecs:  70000000
+  frame_id: "map"
+submap: 
+  - 
+    trajectory_id: 0
+    submap_index: 0
+    submap_version: 180
+    pose: 
+      position: 
+        x: 0.0
+        y: 0.0
+        z: 0.0
+      orientation: 
+        x: 0.0
+        y: 0.0
+        z: 0.0
+        w: 1.0
+  - 
+    trajectory_id: 0
+    submap_index: 1
+    submap_version: 180
+    pose: 
+      position: 
+        x: 0.894102125249
+        y: 0.472420966466
+        z: 0.0
+      orientation: 
+        x: -0.0
+        y: -0.0
+        z: -0.00307975565262
+        w: 0.999995257541
+  - 
+    trajectory_id: 0
+    submap_index: 2
+    submap_version: 180
+    pose: 
+      position: 
+        x: 1.29712258881
+        y: 1.12426806177
+        z: 0.0
+      orientation: 
+        x: -0.0
+        y: -0.0
+        z: -0.00428755700987
+        w: 0.999990808385
+  - 
+    trajectory_id: 0
+    submap_index: 3
+    submap_version: 103
+    pose: 
+      position: 
+        x: 1.60835018407
+        y: 0.689456765833
+        z: 0.0
+      orientation: 
+        x: -0.0
+        y: -0.0
+        z: -0.00315347537535
+        w: 0.999995027784
+  - 
+    trajectory_id: 0
+    submap_index: 4
+    submap_version: 13
+    pose: 
+      position: 
+        x: 1.65365307979
+        y: -0.35123747765
+        z: 0.0
+      orientation: 
+        x: -0.0
+        y: -0.0
+        z: -0.00233326493111
+        w: 0.999997277934
+---
+header: 
+  seq: 314
+  stamp: 
+    secs: 2465
+    nsecs: 180000000
+  frame_id: "map"
+submap: 
+  - 
+    trajectory_id: 0
+    submap_index: 0
+    submap_version: 180
+    pose: 
+      position: 
+        x: 0.0
+        y: 0.0
+        z: 0.0
+      orientation: 
+        x: 0.0
+        y: 0.0
+        z: 0.0
+        w: 1.0
+  - 
+    trajectory_id: 0
+    submap_index: 1
+    submap_version: 180
+    pose: 
+      position: 
+        x: 1.27830691542
+        y: 0.0956448150308
+        z: 0.0
+      orientation: 
+        x: 0.0
+        y: 0.0
+        z: 0.000144147317248
+        w: 0.999999989611
+  - 
+    trajectory_id: 0
+    submap_index: 2
+    submap_version: 180
+    pose: 
+      position: 
+        x: 1.45985476521
+        y: 0.498235780995
+        z: 0.0
+      orientation: 
+        x: 0.0
+        y: 0.0
+        z: 0.00196915377733
+        w: 0.999998061215
+  - 
+    trajectory_id: 0
+    submap_index: 3
+    submap_version: 154
+    pose: 
+      position: 
+        x: 1.3498546518
+        y: 1.21604506215
+        z: 0.0
+      orientation: 
+        x: 0.0
+        y: 0.0
+        z: 0.00106097717386
+        w: 0.999999437164
+  - 
+    trajectory_id: 0
+    submap_index: 4
+    submap_version: 64
+    pose: 
+      position: 
+        x: 1.29100730376
+        y: 1.82426036334
+        z: 0.0
+      orientation: 
+        x: 0.0
+        y: 0.0
+        z: 0.00160718015404
+        w: 0.999998708485
+---
+header: 
+  seq: 318
+  stamp: 
+    secs: 2465
+    nsecs: 340000000
+  frame_id: "map"
+submap: 
+  - 
+    trajectory_id: 0
+    submap_index: 0
+    submap_version: 180
+    pose: 
+      position: 
+        x: 0.0
+        y: 0.0
+        z: 0.0
+      orientation: 
+        x: 0.0
+        y: 0.0
+        z: 0.0
+        w: 1.0
+  - 
+    trajectory_id: 0
+    submap_index: 1
+    submap_version: 180
+    pose: 
+      position: 
+        x: 0.894102125249
+        y: 0.472420966466
+        z: 0.0
+      orientation: 
+        x: -0.0
+        y: -0.0
+        z: -0.00307975565262
+        w: 0.999995257541
+  - 
+    trajectory_id: 0
+    submap_index: 2
+    submap_version: 180
+    pose: 
+      position: 
+        x: 1.29712258881
+        y: 1.12426806177
+        z: 0.0
+      orientation: 
+        x: -0.0
+        y: -0.0
+        z: -0.00428755700987
+        w: 0.999990808385
+  - 
+    trajectory_id: 0
+    submap_index: 3
+    submap_version: 103
+    pose: 
+      position: 
+        x: 1.60835018407
+        y: 0.689456765833
+        z: 0.0
+      orientation: 
+        x: -0.0
+        y: -0.0
+        z: -0.00315347537535
+        w: 0.999995027784
+  - 
+    trajectory_id: 0
+    submap_index: 4
+    submap_version: 13
+    pose: 
+      position: 
+        x: 1.65365307979
+        y: -0.35123747765
+        z: 0.0
+      orientation: 
+        x: -0.0
+        y: -0.0
+        z: -0.00233326493111
+        w: 0.999997277934
+---
+header: 
+  seq: 315
+  stamp: 
+    secs: 2465
+    nsecs: 480000000
+  frame_id: "map"
+submap: 
+  - 
+    trajectory_id: 0
+    submap_index: 0
+    submap_version: 180
+    pose: 
+      position: 
+        x: 0.0
+        y: 0.0
+        z: 0.0
+      orientation: 
+        x: 0.0
+        y: 0.0
+        z: 0.0
+        w: 1.0
+  - 
+    trajectory_id: 0
+    submap_index: 1
+    submap_version: 180
+    pose: 
+      position: 
+        x: 1.27830691542
+        y: 0.0956448150308
+        z: 0.0
+      orientation: 
+        x: 0.0
+        y: 0.0
+        z: 0.000144147317248
+        w: 0.999999989611
+  - 
+    trajectory_id: 0
+    submap_index: 2
+    submap_version: 180
+    pose: 
+      position: 
+        x: 1.45985476521
+        y: 0.498235780995
+        z: 0.0
+      orientation: 
+        x: 0.0
+        y: 0.0
+        z: 0.00196915377733
+        w: 0.999998061215
+  - 
+    trajectory_id: 0
+    submap_index: 3
+    submap_version: 157
+    pose: 
+      position: 
+        x: 1.3498546518
+        y: 1.21604506215
+        z: 0.0
+      orientation: 
+        x: 0.0
+        y: 0.0
+        z: 0.00106097717386
+        w: 0.999999437164
+  - 
+    trajectory_id: 0
+    submap_index: 4
+    submap_version: 67
+    pose: 
+      position: 
+        x: 1.29100730376
+        y: 1.82426036334
+        z: 0.0
+      orientation: 
+        x: 0.0
+        y: 0.0
+        z: 0.00160718015404
+        w: 0.999998708485
+---
+header: 
+  seq: 319
+  stamp: 
+    secs: 2465
+    nsecs: 660000000
+  frame_id: "map"
+submap: 
+  - 
+    trajectory_id: 0
+    submap_index: 0
+    submap_version: 180
+    pose: 
+      position: 
+        x: 0.0
+        y: 0.0
+        z: 0.0
+      orientation: 
+        x: 0.0
+        y: 0.0
+        z: 0.0
+        w: 1.0
+  - 
+    trajectory_id: 0
+    submap_index: 1
+    submap_version: 180
+    pose: 
+      position: 
+        x: 0.894102125249
+        y: 0.472420966466
+        z: 0.0
+      orientation: 
+        x: -0.0
+        y: -0.0
+        z: -0.00307975565262
+        w: 0.999995257541
+  - 
+    trajectory_id: 0
+    submap_index: 2
+    submap_version: 180
+    pose: 
+      position: 
+        x: 1.29712258881
+        y: 1.12426806177
+        z: 0.0
+      orientation: 
+        x: -0.0
+        y: -0.0
+        z: -0.00428755700987
+        w: 0.999990808385
+  - 
+    trajectory_id: 0
+    submap_index: 3
+    submap_version: 104
+    pose: 
+      position: 
+        x: 1.60835018407
+        y: 0.689456765833
+        z: 0.0
+      orientation: 
+        x: -0.0
+        y: -0.0
+        z: -0.00315347537535
+        w: 0.999995027784
+  - 
+    trajectory_id: 0
+    submap_index: 4
+    submap_version: 14
+    pose: 
+      position: 
+        x: 1.65365307979
+        y: -0.35123747765
+        z: 0.0
+      orientation: 
+        x: -0.0
+        y: -0.0
+        z: -0.00233326493111
+        w: 0.999997277934
+---
+header: 
+  seq: 316
+  stamp: 
+    secs: 2465
+    nsecs: 750000000
+  frame_id: "map"
+submap: 
+  - 
+    trajectory_id: 0
+    submap_index: 0
+    submap_version: 180
+    pose: 
+      position: 
+        x: 0.0
+        y: 0.0
+        z: 0.0
+      orientation: 
+        x: 0.0
+        y: 0.0
+        z: 0.0
+        w: 1.0
+  - 
+    trajectory_id: 0
+    submap_index: 1
+    submap_version: 180
+    pose: 
+      position: 
+        x: 1.27830691542
+        y: 0.0956448150308
+        z: 0.0
+      orientation: 
+        x: 0.0
+        y: 0.0
+        z: 0.000144147317248
+        w: 0.999999989611
+  - 
+    trajectory_id: 0
+    submap_index: 2
+    submap_version: 180
+    pose: 
+      position: 
+        x: 1.45985476521
+        y: 0.498235780995
+        z: 0.0
+      orientation: 
+        x: 0.0
+        y: 0.0
+        z: 0.00196915377733
+        w: 0.999998061215
+  - 
+    trajectory_id: 0
+    submap_index: 3
+    submap_version: 160
+    pose: 
+      position: 
+        x: 1.3498546518
+        y: 1.21604506215
+        z: 0.0
+      orientation: 
+        x: 0.0
+        y: 0.0
+        z: 0.00106097717386
+        w: 0.999999437164
+  - 
+    trajectory_id: 0
+    submap_index: 4
+    submap_version: 70
+    pose: 
+      position: 
+        x: 1.29100730376
+        y: 1.82426036334
+        z: 0.0
+      orientation: 
+        x: 0.0
+        y: 0.0
+        z: 0.00160718015404
+        w: 0.999998708485
+---
+header: 
+  seq: 320
+  stamp: 
+    secs: 2465
+    nsecs: 920000000
+  frame_id: "map"
+submap: 
+  - 
+    trajectory_id: 0
+    submap_index: 0
+    submap_version: 180
+    pose: 
+      position: 
+        x: 0.0
+        y: 0.0
+        z: 0.0
+      orientation: 
+        x: 0.0
+        y: 0.0
+        z: 0.0
+        w: 1.0
+  - 
+    trajectory_id: 0
+    submap_index: 1
+    submap_version: 180
+    pose: 
+      position: 
+        x: 0.894102125249
+        y: 0.472420966466
+        z: 0.0
+      orientation: 
+        x: -0.0
+        y: -0.0
+        z: -0.00307975565262
+        w: 0.999995257541
+  - 
+    trajectory_id: 0
+    submap_index: 2
+    submap_version: 180
+    pose: 
+      position: 
+        x: 1.29712258881
+        y: 1.12426806177
+        z: 0.0
+      orientation: 
+        x: -0.0
+        y: -0.0
+        z: -0.00428755700987
+        w: 0.999990808385
+  - 
+    trajectory_id: 0
+    submap_index: 3
+    submap_version: 104
+    pose: 
+      position: 
+        x: 1.60835018407
+        y: 0.689456765833
+        z: 0.0
+      orientation: 
+        x: -0.0
+        y: -0.0
+        z: -0.00315347537535
+        w: 0.999995027784
+  - 
+    trajectory_id: 0
+    submap_index: 4
+    submap_version: 14
+    pose: 
+      position: 
+        x: 1.65365307979
+        y: -0.35123747765
+        z: 0.0
+      orientation: 
+        x: -0.0
+        y: -0.0
+        z: -0.00233326493111
+        w: 0.999997277934
+---
+header: 
+  seq: 317
+  stamp: 
+    secs: 2466
+    nsecs:  60000000
+  frame_id: "map"
+submap: 
+  - 
+    trajectory_id: 0
+    submap_index: 0
+    submap_version: 180
+    pose: 
+      position: 
+        x: 0.0
+        y: 0.0
+        z: 0.0
+      orientation: 
+        x: 0.0
+        y: 0.0
+        z: 0.0
+        w: 1.0
+  - 
+    trajectory_id: 0
+    submap_index: 1
+    submap_version: 180
+    pose: 
+      position: 
+        x: 1.27830691542
+        y: 0.0956448150308
+        z: 0.0
+      orientation: 
+        x: 0.0
+        y: 0.0
+        z: 0.000144147317248
+        w: 0.999999989611
+  - 
+    trajectory_id: 0
+    submap_index: 2
+    submap_version: 180
+    pose: 
+      position: 
+        x: 1.45985476521
+        y: 0.498235780995
+        z: 0.0
+      orientation: 
+        x: 0.0
+        y: 0.0
+        z: 0.00196915377733
+        w: 0.999998061215
+  - 
+    trajectory_id: 0
+    submap_index: 3
+    submap_version: 160
+    pose: 
+      position: 
+        x: 1.3498546518
+        y: 1.21604506215
+        z: 0.0
+      orientation: 
+        x: 0.0
+        y: 0.0
+        z: 0.00106097717386
+        w: 0.999999437164
+  - 
+    trajectory_id: 0
+    submap_index: 4
+    submap_version: 70
+    pose: 
+      position: 
+        x: 1.29100730376
+        y: 1.82426036334
+        z: 0.0
+      orientation: 
+        x: 0.0
+        y: 0.0
+        z: 0.00160718015404
+        w: 0.999998708485
+---
+header: 
+  seq: 321
+  stamp: 
+    secs: 2466
+    nsecs: 220000000
+  frame_id: "map"
+submap: 
+  - 
+    trajectory_id: 0
+    submap_index: 0
+    submap_version: 180
+    pose: 
+      position: 
+        x: 0.0
+        y: 0.0
+        z: 0.0
+      orientation: 
+        x: 0.0
+        y: 0.0
+        z: 0.0
+        w: 1.0
+  - 
+    trajectory_id: 0
+    submap_index: 1
+    submap_version: 180
+    pose: 
+      position: 
+        x: 0.894102125249
+        y: 0.472420966466
+        z: 0.0
+      orientation: 
+        x: -0.0
+        y: -0.0
+        z: -0.00307975565262
+        w: 0.999995257541
+  - 
+    trajectory_id: 0
+    submap_index: 2
+    submap_version: 180
+    pose: 
+      position: 
+        x: 1.29712258881
+        y: 1.12426806177
+        z: 0.0
+      orientation: 
+        x: -0.0
+        y: -0.0
+        z: -0.00428755700987
+        w: 0.999990808385
+  - 
+    trajectory_id: 0
+    submap_index: 3
+    submap_version: 105
+    pose: 
+      position: 
+        x: 1.60835018407
+        y: 0.689456765833
+        z: 0.0
+      orientation: 
+        x: -0.0
+        y: -0.0
+        z: -0.00315347537535
+        w: 0.999995027784
+  - 
+    trajectory_id: 0
+    submap_index: 4
+    submap_version: 15
+    pose: 
+      position: 
+        x: 1.65365307979
+        y: -0.35123747765
+        z: 0.0
+      orientation: 
+        x: -0.0
+        y: -0.0
+        z: -0.00233326493111
+        w: 0.999997277934
+---
+header: 
+  seq: 318
+  stamp: 
+    secs: 2466
+    nsecs: 370000000
+  frame_id: "map"
+submap: 
+  - 
+    trajectory_id: 0
+    submap_index: 0
+    submap_version: 180
+    pose: 
+      position: 
+        x: 0.0
+        y: 0.0
+        z: 0.0
+      orientation: 
+        x: 0.0
+        y: 0.0
+        z: 0.0
+        w: 1.0
+  - 
+    trajectory_id: 0
+    submap_index: 1
+    submap_version: 180
+    pose: 
+      position: 
+        x: 1.27830691542
+        y: 0.0956448150308
+        z: 0.0
+      orientation: 
+        x: 0.0
+        y: 0.0
+        z: 0.000144147317248
+        w: 0.999999989611
+  - 
+    trajectory_id: 0
+    submap_index: 2
+    submap_version: 180
+    pose: 
+      position: 
+        x: 1.45985476521
+        y: 0.498235780995
+        z: 0.0
+      orientation: 
+        x: 0.0
+        y: 0.0
+        z: 0.00196915377733
+        w: 0.999998061215
+  - 
+    trajectory_id: 0
+    submap_index: 3
+    submap_version: 161
+    pose: 
+      position: 
+        x: 1.3498546518
+        y: 1.21604506215
+        z: 0.0
+      orientation: 
+        x: 0.0
+        y: 0.0
+        z: 0.00106097717386
+        w: 0.999999437164
+  - 
+    trajectory_id: 0
+    submap_index: 4
+    submap_version: 71
+    pose: 
+      position: 
+        x: 1.29100730376
+        y: 1.82426036334
+        z: 0.0
+      orientation: 
+        x: 0.0
+        y: 0.0
+        z: 0.00160718015404
+        w: 0.999998708485
+---
+header: 
+  seq: 322
+  stamp: 
+    secs: 2466
+    nsecs: 550000000
+  frame_id: "map"
+submap: 
+  - 
+    trajectory_id: 0
+    submap_index: 0
+    submap_version: 180
+    pose: 
+      position: 
+        x: 0.0
+        y: 0.0
+        z: 0.0
+      orientation: 
+        x: 0.0
+        y: 0.0
+        z: 0.0
+        w: 1.0
+  - 
+    trajectory_id: 0
+    submap_index: 1
+    submap_version: 180
+    pose: 
+      position: 
+        x: 0.894102125249
+        y: 0.472420966466
+        z: 0.0
+      orientation: 
+        x: -0.0
+        y: -0.0
+        z: -0.00307975565262
+        w: 0.999995257541
+  - 
+    trajectory_id: 0
+    submap_index: 2
+    submap_version: 180
+    pose: 
+      position: 
+        x: 1.29712258881
+        y: 1.12426806177
+        z: 0.0
+      orientation: 
+        x: -0.0
+        y: -0.0
+        z: -0.00428755700987
+        w: 0.999990808385
+  - 
+    trajectory_id: 0
+    submap_index: 3
+    submap_version: 107
+    pose: 
+      position: 
+        x: 1.60835018407
+        y: 0.689456765833
+        z: 0.0
+      orientation: 
+        x: -0.0
+        y: -0.0
+        z: -0.00315347537535
+        w: 0.999995027784
+  - 
+    trajectory_id: 0
+    submap_index: 4
+    submap_version: 17
+    pose: 
+      position: 
+        x: 1.65365307979
+        y: -0.35123747765
+        z: 0.0
+      orientation: 
+        x: -0.0
+        y: -0.0
+        z: -0.00233326493111
+        w: 0.999997277934
+---

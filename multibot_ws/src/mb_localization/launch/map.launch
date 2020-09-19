@@ -1,4 +1,4 @@
 <?xml version="1.0"?>
 <launch>
-	<node name="map_server" pkg="map_server" type="map_server" args="$(find tb3_localization)/map/arena.yaml"/>
+	<node name="map_server" pkg="map_server" type="map_server" args="$(find mb_gazebo)/maps/arena_gmapping.yaml"/>
 </launch>

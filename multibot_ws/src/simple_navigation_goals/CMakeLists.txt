@@ -165,6 +165,9 @@ target_link_libraries(simple_navigation_goals_periodic_robot1 ${catkin_LIBRARIES
 add_executable(simple_navigation_goals_periodic_robot2 src/simple_navigation_goals_periodic_robot2.cpp)
 target_link_libraries(simple_navigation_goals_periodic_robot2 ${catkin_LIBRARIES})
 
+add_executable(simple_navigation_goals_periodic_mapframe src/simple_navigation_goals_periodic_mapframe.cpp)
+target_link_libraries(simple_navigation_goals_periodic_mapframe ${catkin_LIBRARIES})
+
 #############
 ## Install ##
 #############

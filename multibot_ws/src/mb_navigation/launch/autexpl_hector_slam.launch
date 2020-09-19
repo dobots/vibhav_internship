@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <launch>
 	<arg name="rvizconfig" default="$(find mb_navigation)/rviz/navigation_cfg.rviz"/>
-	<include file="$(find mb_control)/launch/keyboard_control.launch" />
+	<!-- <include file="$(find mb_control)/launch/keyboard_control.launch" /> -->
 	<!-- <include file="$(find mb_localization)/launch/amcl.launch" /> -->
 	<include file="$(find mb_gazebo)/launch/mb_arena.launch" />
 	<include file="$(find mb_localization)/launch/hector_slam.launch" />

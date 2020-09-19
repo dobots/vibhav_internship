@@ -35,23 +35,57 @@ sudo apt-get install ros-melodic-cartographer ros-melodic-cartographer-ros ros-m
 sudo apt-get install ros-melodic-teleop-twist-keyboard
 ```
 
+#### RRT Frontier Exploration [(link)](http://wiki.ros.org/rrt_exploration)
+```bash
+git clone https://github.com/hasauino/rrt_exploration.git
+```
+
 ***
 ## Launch commands
 
-#### Single robot with enabled 
+#### Single robot with controlled by a user 
+These commands launch the robot in a predefined world with different types of mapping algorithms. I order to control the robot, the teleop-twist-keyboard command needs to be launched.
+
+```bash
 roslaunch mb_navigation nav_tut_hectorslam.launch
-
+```
+```bash
 roslaunch mb_navigation nav_tut_gmapping.launch
-
+```
+```bash
 roslaunch mb_navigation nav_tut_carto.launch
-
+```
+```bash
 rosrun teleop_twist_keyboard teleop_twist_keyboard.py
+```
 
-
-#### Single Robot Exploration
-
+#### Autonomous Single Robot Exploration
+In this section, the commands run autonomous exploration of a single robot where goals are periodically (every 10 seconds) assigned to a single robot.
+```bash
 roslaunch mb_navigation autexpl_hector_slam.launch
-
+```
+```bash
 roslaunch mb_navigation autexpl_gmapping.launch
-
-
+```
+```bash
+roslaunch mb_navigation autexpl_cartographer.launch
+```
+#### Autonomous Multiple Robot Exploration
+In this section, the commands run autonomous exploration of a single robot where goals are periodically (every 10 seconds) assigned to multiple robots seperately. Thus there is a non coordinated movement of robots in the arena.
+```bash
+roslaunch multi_robot multirobot_arena_gmapping.launch
+```
+```bash
+roslaunch multi_robot multiexplrobot_carto_seperate.launch
+```
+#### Single robot RRT Frontier Exploration
+A frontier is defined as the region seperating a known from an unkown area. First, an RRT (Rapidly expanding random tree) algorithm detects points on the frontier region. The frontier regions are clustered and the filtered points are sent to an assigner node. At the assigner node the robot is assigned goal positions based on the distance of the goal from the robot and an estimated amount of unexplored area that it can discover.Finally, the robot uses a dijkstras planning method to plan its path to the goal position that is assigned to it.
+```bash
+roslaunch multi_robot nav_tut_hectorslam_single_mod_rrt.launch
+```
+```bash
+roslaunch multi_robot nav_tut_gmapping_single_mod_rrt.launch
+```
+```bash
+roslaunch multi_robot nav_tut_carto_single_mod_rrt.launch
+```

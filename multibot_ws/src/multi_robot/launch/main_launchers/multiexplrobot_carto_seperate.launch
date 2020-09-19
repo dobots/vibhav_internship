@@ -20,8 +20,8 @@
 	<!-- Only mentions robot1_tf/map in rviz, but does not give the output of the map. -->
 	<!-- <node pkg="tf" type="static_transform_publisher" name="map_odom_broadcaster_robot1" args="0 0 0 0 0 0 robot1_tf/map robot1_tf/odom 100"/> -->
 
-	<node pkg="tf" type="static_transform_publisher" name="odom_map_broadcaster_robot1" args="0 0 0 0 0 0 map robot1_tf/map 100"/>
-	<node pkg="tf" type="static_transform_publisher" name="odom_map_broadcaster_robot2" args="0 0 0 0 0 0 map robot2_tf/map 100"/>	
+	<!-- <node pkg="tf" type="static_transform_publisher" name="odom_map_broadcaster_robot1" args="0 0 0 0 0 0 map robot1_tf/map 100"/>
+	<node pkg="tf" type="static_transform_publisher" name="odom_map_broadcaster_robot2" args="0 0 0 0 0 0 map robot2_tf/map 100"/>-->
 
 	<!-- robot description -->
 	<include file="$(find multi_robot)/launch/nav_robots_carto_seperate.launch"/> 
