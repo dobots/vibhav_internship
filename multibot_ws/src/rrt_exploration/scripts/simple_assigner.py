@@ -103,12 +103,17 @@ def node():
 		nb=[] #busy robots
 		for i in range(0,n_robots):
 			robots[i].goal_counter += 1
-			rospy.loginfo("counter value:" + str(robots[i].goal_counter))
+			rospy.loginfo("Robot" + str(i) + " counter value:" + str(robots[i].goal_counter)+" mod counter value:"+str(robots[i].goal_counter%10))
 			if (robots[i].getState()==1):			#To check what 1 means?
 				nb.append(i)
-			elif(not robots[i].getState()==1 or robots[i].goal_counter ==10000):
+			else:
+				na.append(i)
+			
+			if(robots[i].getState() and not robots[i].goal_counter % 5):
 				robots[i].goal_counter = 0
-				na.append(i)	
+				na.append(i)
+				rospy.loginfo("Assigner_avail_bot: I am here")
+
 		rospy.loginfo("available robots: "+str(na))	
 #------------------------------------------------------------------------- 
 #get dicount and update informationGain

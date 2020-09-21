@@ -69,8 +69,8 @@ class robot:
         return self.position
 
     def sendGoal(self, point):
-        robot.goal.target_pose.pose.position.x = point[0]
-        robot.goal.target_pose.pose.position.y = point[1]
+        robot.goal.target_pose.pose.position.x = point[0] - 0.5     #Added as wall points getting generated
+        robot.goal.target_pose.pose.position.y = point[1] - 0.5     #Added as wall points getting generated
         robot.goal.target_pose.pose.orientation.w = 1.0
         rospy.loginfo('sendGoal: I am here')      #for debug
         self.client.send_goal(robot.goal)
