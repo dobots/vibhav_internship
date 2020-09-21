@@ -20,10 +20,8 @@ This repository consists of the code to:-
 The launch files have been developed and tested on Ubuntu LTS 18.04 and ROS Melodic with Gazebo 9 and RViz. The important ROS packages that must be installed are:-
 
 #### Multi robot map merge [(link)](http://wiki.ros.org/multirobot_map_merge)
-This package needs to be cloned directly onto the current workspace. The repository can be found [here](https://github.com/hrnr/m-explore) and can be loaded using:-
-```bash
-git clone https://github.com/hrnr/m-explore.git
-```
+This package is already present in the repository.
+
 #### Cartographer [(link)](http://wiki.ros.org/cartographer)
 An important resource on this package can be found [here](https://ouster.com/blog/building-maps-using-google-cartographer-and-the-os1-lidar-sensor/). To install this package, use:-
 ```bash
@@ -36,13 +34,26 @@ sudo apt-get install ros-melodic-teleop-twist-keyboard
 ```
 
 #### RRT Frontier Exploration [(link)](http://wiki.ros.org/rrt_exploration)
-```bash
-git clone https://github.com/hasauino/rrt_exploration.git
-```
+This package is already present in the repository.
 
 ***
 ## Launch commands
+Before running any of the below commands, navigate to the run
 
+```bash
+cd ~/multibot_ws
+```
+
+```bash
+catkin_make
+```
+
+followed by,
+
+```bash
+source ~/multibot_ws/devel/setup.bash
+```
+ 
 #### Single robot with controlled by a user 
 These commands launch the robot in a predefined world with different types of mapping algorithms. I order to control the robot, the teleop-twist-keyboard command needs to be launched.
 
