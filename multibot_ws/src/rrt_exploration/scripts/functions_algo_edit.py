@@ -1,5 +1,6 @@
 import rospy
 import tf
+import math
 from numpy import array
 import actionlib
 from move_base_msgs.msg import MoveBaseAction, MoveBaseGoal
@@ -49,7 +50,7 @@ class robot:
 
         rospy.wait_for_service(self.name+self.plan_service)     #Line continuously waiting here
 
-        rospy.loginfo('Robot function: I am here')
+        #rospy.loginfo('Robot function: I am here')
         self.make_plan = rospy.ServiceProxy(
             self.name+self.plan_service, GetPlan)
         robot.start.header.frame_id = self.global_frame
@@ -69,10 +70,10 @@ class robot:
         return self.position
 
     def sendGoal(self, point):
-        robot.goal.target_pose.pose.position.x = point[0] #- 0.5     #Added as wall points getting generated
-        robot.goal.target_pose.pose.position.y = point[1] #- 0.5     #Added as wall points getting generated
+        robot.goal.target_pose.pose.position.x = point[0] - 0.5     #Added as wall points getting generated
+        robot.goal.target_pose.pose.position.y = point[1] - 0.5     #Added as wall points getting generated
         robot.goal.target_pose.pose.orientation.w = 1.0
-        rospy.loginfo('sendGoal: I am here')      #for debug
+        #rospy.loginfo('sendGoal: I am here')      #for debug
         self.client.send_goal(robot.goal)
         self.assigned_point = array(point)
 
@@ -203,19 +204,31 @@ def Nearest2(V, x):
 # ________________________________________________________________________________
 
 
-def gridValue(mapData, Xp):
+def gridValue_ObstacleCheck(mapData, Xp, threshold):
     resolution = mapData.info.resolution
     Xstartx = mapData.info.origin.position.x  #Considers this from the origin of the map (0,0)
     Xstarty = mapData.info.origin.position.y
 
     width = mapData.info.width
     Data = mapData.data
-    # returns grid value at "Xp" location. Occupancy probabilities
-    # map data:  100 occupied      -1 unknown       0 free
-    index = (floor((Xp[1]-Xstarty)/resolution)*width) + \
-        (floor((Xp[0]-Xstartx)/resolution))
+    radius = 0.5
+    obstacle_count = 0
+    obstacle_count_thresh = ((math.pi * radius *radius )/(resolution*resolution))//4    #1/4th the area of the region
+    #rospy.loginfo(obstacle_count_thresh)
 
-    if int(index) < len(Data):
-        return Data[int(index)]
+    for i in range(0,int(2*radius)):
+        for j in range(0,int(2*radius)):
+            index = (floor(((Xp[1]+j-radius)-Xstarty)/resolution)*width) + (floor(((Xp[0]+i-radius)-Xstartx)/resolution))   #extract the index
+            if int(index) < len(Data):
+                rospy.loginfo(Data[int(index)])
+                if not Data[int(index)] == -1:                              #make sure less than threshhold
+                    #rospy.loginfo("gridvalue: I am here")
+                    obstacle_count+=1
+
+    #rospy.loginfo(obstacle_count)
+    if obstacle_count > 0:
+        rospy.loginfo("Obstacle detected at centroid!")
+        return True             #Obstacle present
     else:
-        return 100
+        return False            
+

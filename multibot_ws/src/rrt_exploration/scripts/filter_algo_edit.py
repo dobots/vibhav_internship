@@ -9,7 +9,7 @@ from nav_msgs.msg import OccupancyGrid
 from geometry_msgs.msg import PointStamped
 import tf
 from numpy import array, vstack, delete
-from functions_algo_edit import gridValue, informationGain
+from functions_algo_edit import gridValue_ObstacleCheck, informationGain
 from sklearn.cluster import MeanShift
 from rrt_exploration.msg import PointArray
 
@@ -214,7 +214,7 @@ def node():
                 transformedPoint = tfLisn.transformPoint(
                     globalmaps[i].header.frame_id, temppoint)
                 x = array([transformedPoint.point.x, transformedPoint.point.y])
-                cond = (gridValue(globalmaps[i], x) > threshold) or cond
+                cond = gridValue_ObstacleCheck(globalmaps[i], x, threshold) or cond   #If cond put here, then if costmap point is detected as obstacle for 1 robot, it is detected as an obstacle for others. Truth about obstacle is the same
             if (cond or (informationGain(mapData, [centroids[z][0], centroids[z][1]], info_radius*0.5)) < 0.2):
                 centroids = delete(centroids, (z), axis=0)
                 z = z-1

@@ -199,7 +199,7 @@ def node():
         # if there is only one frontier no need for clustering, i.e. centroids=frontiers
         if len(front) == 1:
             centroids = front
-        frontiers = copy(centroids)
+        frontiers = copy(centroids)         #Change this to after the cleannup 
 # -------------------------------------------------------------------------
 # clearing old frontiers
 
