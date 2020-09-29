@@ -21,7 +21,7 @@
 
   <!-- Map Merging -->
   <!-- <include file="$(find multi_robot)/launch/map_merge.launch" /> -->
-  <include file="$(find multi_robot)/launch/map_merge_rrt.launch" />
+  <include file="$(find multi_robot)/launch/map_merge_rrt_seperate.launch" />
 
   <!-- RRT Exploration -->
   <include file="$(find multi_robot)/launch/rrtexpl_multibot_seperate.launch" />
@@ -30,33 +30,33 @@
   <param name="robot_description" command="$(find xacro)/xacro --inorder $(find mb_description)/urdf/turtlebot3_waffle_base.urdf.xacro" />
   
   <!-- BEGIN ROBOT 1-->
-  <group ns="robot1">
-    <param name="tf_prefix" value="robot1" />
+  <group ns="robot_1">
+    <param name="tf_prefix" value="robot_1" />
 
     <include file="$(find multi_robot)/launch/one_robot.launch" >
       <arg name="init_pose" value="-x 0 -y 0 -z 0" />
-      <arg name="robot_name"  value="robot1" />
-      <remap from="map" to="robot1/map"/>
+      <arg name="robot_name"  value="robot_1" />
+      <remap from="map" to="robot_1/map"/>
     </include>
 
     <include file="$(find multi_robot)/launch/move_basesafe.launch" >
-      <arg name="namespace"  value="robot1" />
+      <arg name="namespace"  value="robot_1" />
     </include>
 
   </group>
 
   <!-- BEGIN ROBOT 2-->
-   <group ns="robot2">
-    <param name="tf_prefix" value="robot2" />
+   <group ns="robot_2">
+    <param name="tf_prefix" value="robot_2" />
 
     <include file="$(find multi_robot)/launch/one_robot.launch" >
       <arg name="init_pose" value="-x 0 -y -0.8 -z 0" />
-      <arg name="robot_name"  value="robot2" />
-      <remap from="map" to="robot2/map"/>
+      <arg name="robot_name"  value="robot_2" />
+      <remap from="map" to="robot_2/map"/>
     </include>
 
     <include file="$(find multi_robot)/launch/move_basesafe.launch" >
-      <arg name="namespace"  value="robot2" />
+      <arg name="namespace"  value="robot_2" />
     </include>
 
   </group>

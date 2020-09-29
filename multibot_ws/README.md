@@ -34,7 +34,7 @@ sudo apt-get install ros-melodic-teleop-twist-keyboard
 ```
 
 #### RRT Frontier Exploration [(link)](http://wiki.ros.org/rrt_exploration)
--This package is already present in the repository.
+This package is already present in the repository.
 
 ***
 ## Launch commands

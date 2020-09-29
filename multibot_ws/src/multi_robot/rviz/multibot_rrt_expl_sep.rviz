@@ -64,53 +64,53 @@ Visualization Manager:
         All Enabled: false
         map:
           Value: false
-        robot1/base_footprint:
+        robot_1/base_footprint:
           Value: true
-        robot1/base_link:
+        robot_1/base_link:
           Value: true
-        robot1/camera_lens_link:
+        robot_1/camera_lens_link:
           Value: true
-        robot1/camera_link:
+        robot_1/camera_link:
           Value: true
-        robot1/caster_back_left_link:
+        robot_1/caster_back_left_link:
           Value: true
-        robot1/caster_back_right_link:
+        robot_1/caster_back_right_link:
           Value: true
-        robot1/imu_link:
+        robot_1/imu_link:
           Value: true
-        robot1/laser:
+        robot_1/laser:
           Value: true
-        robot1/map:
+        robot_1/map:
           Value: true
-        robot1/odom:
+        robot_1/odom:
           Value: true
-        robot1/wheel_left_link:
+        robot_1/wheel_left_link:
           Value: true
-        robot1/wheel_right_link:
+        robot_1/wheel_right_link:
           Value: true
-        robot2/base_footprint:
+        robot_2/base_footprint:
           Value: true
-        robot2/base_link:
+        robot_2/base_link:
           Value: true
-        robot2/camera_lens_link:
+        robot_2/camera_lens_link:
           Value: true
-        robot2/camera_link:
+        robot_2/camera_link:
           Value: true
-        robot2/caster_back_left_link:
+        robot_2/caster_back_left_link:
           Value: true
-        robot2/caster_back_right_link:
+        robot_2/caster_back_right_link:
           Value: true
-        robot2/imu_link:
+        robot_2/imu_link:
           Value: true
-        robot2/laser:
+        robot_2/laser:
           Value: true
-        robot2/map:
+        robot_2/map:
           Value: true
-        robot2/odom:
+        robot_2/odom:
           Value: true
-        robot2/wheel_left_link:
+        robot_2/wheel_left_link:
           Value: true
-        robot2/wheel_right_link:
+        robot_2/wheel_right_link:
           Value: true
       Marker Scale: 1
       Name: TF
@@ -119,44 +119,46 @@ Visualization Manager:
       Show Names: false
       Tree:
         map:
-          robot1/map:
-            robot1/odom:
-              robot1/base_footprint:
-                robot1/base_link:
-                  robot1/camera_link:
-                    robot1/camera_lens_link:
-                      {}
-                  robot1/caster_back_left_link:
+          robot_1/map:
+            {}
+          robot_1/odom:
+            robot_1/base_footprint:
+              robot_1/base_link:
+                robot_1/camera_link:
+                  robot_1/camera_lens_link:
                     {}
-                  robot1/caster_back_right_link:
+                robot_1/caster_back_left_link:
+                  {}
+                robot_1/caster_back_right_link:
+                  {}
+                robot_1/imu_link:
+                  {}
+                robot_1/laser:
+                  {}
+                robot_1/wheel_left_link:
+                  {}
+                robot_1/wheel_right_link:
+                  {}
+          robot_2/map:
+            {}
+          robot_2/odom:
+            robot_2/base_footprint:
+              robot_2/base_link:
+                robot_2/camera_link:
+                  robot_2/camera_lens_link:
                     {}
-                  robot1/imu_link:
-                    {}
-                  robot1/laser:
-                    {}
-                  robot1/wheel_left_link:
-                    {}
-                  robot1/wheel_right_link:
-                    {}
-          robot2/map:
-            robot2/odom:
-              robot2/base_footprint:
-                robot2/base_link:
-                  robot2/camera_link:
-                    robot2/camera_lens_link:
-                      {}
-                  robot2/caster_back_left_link:
-                    {}
-                  robot2/caster_back_right_link:
-                    {}
-                  robot2/imu_link:
-                    {}
-                  robot2/laser:
-                    {}
-                  robot2/wheel_left_link:
-                    {}
-                  robot2/wheel_right_link:
-                    {}
+                robot_2/caster_back_left_link:
+                  {}
+                robot_2/caster_back_right_link:
+                  {}
+                robot_2/imu_link:
+                  {}
+                robot_2/laser:
+                  {}
+                robot_2/wheel_left_link:
+                  {}
+                robot_2/wheel_right_link:
+                  {}
       Update Interval: 0
       Value: true
     - Alpha: 1
@@ -175,7 +177,7 @@ Visualization Manager:
       Draw Behind: true
       Enabled: true
       Name: Map_robot1
-      Topic: /robot1/map
+      Topic: /robot_1/map
       Unreliable: false
       Use Timestamp: false
       Value: true
@@ -185,7 +187,7 @@ Visualization Manager:
       Draw Behind: true
       Enabled: true
       Name: Map_robot2
-      Topic: /robot2/map
+      Topic: /robot_2/map
       Unreliable: false
       Use Timestamp: false
       Value: true
@@ -341,7 +343,7 @@ Visualization Manager:
           Value: true
       Name: RobotModel
       Robot Description: robot_description
-      TF Prefix: robot1
+      TF Prefix: robot_1
       Update Interval: 0
       Value: true
       Visual Enabled: true
@@ -404,7 +406,7 @@ Visualization Manager:
           Value: true
       Name: RobotModel
       Robot Description: robot_description
-      TF Prefix: robot2
+      TF Prefix: robot_2
       Update Interval: 0
       Value: true
       Visual Enabled: true
@@ -433,7 +435,7 @@ Visualization Manager:
       Size (Pixels): 3
       Size (m): 0.009999999776482582
       Style: Flat Squares
-      Topic: /robot1/scan
+      Topic: /robot_1/scan
       Unreliable: false
       Use Fixed Frame: true
       Use rainbow: true
@@ -463,7 +465,7 @@ Visualization Manager:
       Size (Pixels): 3
       Size (m): 0.009999999776482582
       Style: Flat Squares
-      Topic: /robot2/scan
+      Topic: /robot_2/scan
       Unreliable: false
       Use Fixed Frame: true
       Use rainbow: true
@@ -505,7 +507,7 @@ Visualization Manager:
       Pitch: 1.5697963237762451
       Target Frame: <Fixed Frame>
       Value: Orbit (rviz)
-      Yaw: 4.70041036605835
+      Yaw: 4.7104105949401855
     Saved: ~
 Window Geometry:
   Displays:

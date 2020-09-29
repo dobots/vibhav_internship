@@ -14,9 +14,9 @@
 
 	<!-- Gmapping -->
 	<node pkg="gmapping" type="slam_gmapping" name="slam_gmapping" output="screen">
-		<param name="map_frame" value="$(arg namespace)/map"/>
-		<param name="odom_frame" value="$(arg namespace)/odom"/>
-		<param name="base_frame" value="$(arg namespace)/base_footprint"/>
+		<param name="map_frame" value="map"/>
+		<param name="odom_frame" value="$(arg odom_frame_id)"/>
+		<param name="base_frame" value="$(arg base_frame_id)"/>
 
 		<remap from="scan" to="/$(arg namespace)/scan"/>
 		<remap from="map" to="/$(arg namespace)/map"/>

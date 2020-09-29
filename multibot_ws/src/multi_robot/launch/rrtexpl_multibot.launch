@@ -41,7 +41,7 @@
 	<param name="frontiers_topic" value="/filtered_points"/> 
 	<param name="n_robots" value="2"/>
 	<param name="namespace_init_count" value="1"/>
-	<param name="namespace" value="/robot"/>
+	<param name="namespace" value="robot"/>
 	<param name="delay_after_assignement" value="0.5"/>
 	<param name="rate" value="100"/>
 </node>

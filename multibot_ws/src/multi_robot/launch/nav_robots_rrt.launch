@@ -37,7 +37,6 @@
       <arg name="robot_name"  value="robot1" />
       <remap from="map" to="robot1/map"/>
     </include>
-    <!-- <include file="$(find multi_robot)/launch/gmapping.launch" /> -->
   </group>
 
   <!-- BEGIN ROBOT 2-->

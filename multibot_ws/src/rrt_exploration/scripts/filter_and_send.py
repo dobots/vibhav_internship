@@ -198,8 +198,7 @@ def node():
 
         # if there is only one frontier no need for clustering, i.e. centroids=frontiers
         if len(front) == 1:
-            centroids = front
-        frontiers = copy(centroids)         #Change this to after the cleannup 
+            centroids = front 
 # -------------------------------------------------------------------------
 # clearing old frontiers
 
@@ -219,6 +218,8 @@ def node():
                 centroids = delete(centroids, (z), axis=0)
                 z = z-1
             z += 1
+            
+        frontiers = copy(centroids)         #Change this to after the cleannup
 # -------------------------------------------------------------------------
 # publishing
         arraypoints.points = []

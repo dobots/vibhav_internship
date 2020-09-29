@@ -20,8 +20,8 @@
   <include file="$(find multi_robot)/launch/gmapping/gmapping2.launch" />
 
   <!-- Map Merging -->
-  <!-- <include file="$(find multi_robot)/launch/map_merge.launch" /> -->
   <include file="$(find multi_robot)/launch/map_merge.launch" />
+  <!-- <include file="$(find multi_robot)/launch/map_merge_3D.launch" /> -->
 
   <!-- RRT Exploration -->
   <!-- <include file="$(find multi_robot)/launch/rrtexpl_multibot.launch" /> -->

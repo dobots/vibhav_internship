@@ -203,7 +203,7 @@ Visualization Manager:
     - Alpha: 1
       Buffer Length: 1
       Class: rviz/Path
-      Color: 255; 255; 127
+      Color: 252; 25; 25
       Enabled: true
       Head Diameter: 0.30000001192092896
       Head Length: 0.20000000298023224
@@ -266,7 +266,7 @@ Visualization Manager:
       Marker Topic: /global_detector_shapes
       Name: Marker
       Namespaces:
-        markers: true
+        {}
       Queue Size: 100
       Value: true
     - Class: rviz/Marker
