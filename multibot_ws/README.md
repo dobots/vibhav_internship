@@ -3,7 +3,7 @@
 This repository consists of the code to:-
 
 1. Run a single robot and explore an area using 
-	1.	Hector Slam
+	1. Hector Slam
 	2. GMapping
 	3. Cartographer
 2. Run multiple robots and explore an area using 
@@ -81,6 +81,9 @@ roslaunch mb_navigation autexpl_cartographer.launch
 In this section, the commands run autonomous exploration of a single robot where goals are periodically (every 10 seconds) assigned to multiple robots seperately. Thus there is a non coordinated movement of robots in the arena.
 ```bash
 roslaunch multi_robot multirobot_arena_gmapping.launch
+```
+```bash
+roslaunch multi_robot multirobot_arena_hectorslam.launch
 ```
 ```bash
 roslaunch multi_robot multiexplrobot_carto_seperate.launch

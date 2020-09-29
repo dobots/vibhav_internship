@@ -20,7 +20,7 @@
   </group>
 
     <group ns="robot1/map_merge">
-    	<param name="init_pose_x" value="0" />
+    	<param name="init_pose_x" value="2" />
     	<param name="init_pose_y" value="0" />
     	<param name="init_pose_z" value="0" />
     	<param name="init_pose_yaw" value="0" />
@@ -28,7 +28,7 @@
 
  	<group ns="robot2/map_merge">
     	<param name="init_pose_x" value="0" />
-    	<param name="init_pose_y" value="-0.8" />
+    	<param name="init_pose_y" value="0" />
     	<param name="init_pose_z" value="0" />
     	<param name="init_pose_yaw" value="0" />
     </group>  
