@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <launch>
 	<param name="/use_sim_time" value="true" />
-	<arg name="world_name" default="$(find mb_gazebo)/worlds/arena_2018.world"/>  <!--house.world arena_2018.world-->
+	<arg name="world_name" default="$(find mb_gazebo)/worlds/house.world"/>  <!--house.world arena_2018.world-->
 	<arg name="rvizconfig" default="$(find mb_navigation)/rviz/multinav_debug.rviz"/>
 
   	<include file="$(find gazebo_ros)/launch/empty_world.launch">
@@ -14,8 +14,8 @@
   	</include>
 	
 	<!-- Without these 2 lines, map is not detected in rviz -->
-	<node pkg="tf" type="static_transform_publisher" name="odom_map_broadcaster_robot1" args="0.5 0.5 0 0 0 0 map robot1_tf/map 100"/>
-	<node pkg="tf" type="static_transform_publisher" name="odom_map_broadcaster_robot2" args="0.5 0.5 0 0 0 0 map robot2_tf/map 100"/> 
+	<node pkg="tf" type="static_transform_publisher" name="odom_map_broadcaster_robot1" args="0 1 0 0 0 0 map robot1_tf/map 100"/>
+	<node pkg="tf" type="static_transform_publisher" name="odom_map_broadcaster_robot2" args="0 0 0 0 0 0 map robot2_tf/map 100"/> 
 
 	<!-- <node pkg="tf" type="static_transform_publisher" name="robot2_to_robot1" args="0 -0.8 0 0 0 0 robot1_tf/map robot2_tf/map 100"/> -->
 	
@@ -24,7 +24,7 @@
 	
 
 	<!-- robot description -->
-	<include file="$(find multi_robot)/launch/nav_robots.launch"/> 
+	<include file="$(find multi_robot)/launch/nav_robots_hector.launch"/> 
 	<!-- <include file="$(find multi_robot)/launch/robots.launch"/> -->
 	<!-- <param name="robot_description" command="$(find xacro)/xacro  -<DELETETHIS>- inorder $(find mb_description)/urdf/turtlebot3_waffle_base.urdf.xacro" /> -->
 
