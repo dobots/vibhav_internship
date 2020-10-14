@@ -211,16 +211,16 @@ def gridValue_ObstacleCheck(mapData, Xp, threshold):
 
     width = mapData.info.width
     Data = mapData.data
-    radius = 0.5
+    region_size = 0.5
     obstacle_count = 0
-    obstacle_count_thresh = ((math.pi * radius *radius )/(resolution*resolution))//4    #1/4th the area of the region
+    obstacle_count_thresh = ((region_size *region_size )/(resolution*resolution))//4    #1/4th the area of the region
     #rospy.loginfo(obstacle_count_thresh)
 
-    for i in range(0,int(2*radius)):
-        for j in range(0,int(2*radius)):
-            index = (floor(((Xp[1]+j-radius)-Xstarty)/resolution)*width) + (floor(((Xp[0]+i-radius)-Xstartx)/resolution))   #extract the index
-            rospy.loginfo(Data[int(index)])
+    for i in range(0,int((2*region_size)/resolution)):
+        for j in range(0,int((2*region_size)/resolution)):
+            index = (floor(((Xp[1]+j*resolution-region_size)-Xstarty)/resolution)*width) + (floor(((Xp[0]+i*resolution-region_size)-Xstartx)/resolution))   #extract the index
             if int(index) < len(Data):
+                #rospy.loginfo(Data[int(index)])
                 if not Data[int(index)] == -1:                              #make sure less than threshhold
                     #rospy.loginfo("gridvalue: I am here")
                     obstacle_count+=1

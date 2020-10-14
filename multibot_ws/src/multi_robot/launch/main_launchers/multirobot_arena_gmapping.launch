@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <launch>
 	<param name="/use_sim_time" value="true" />
-	<arg name="world_name" default="$(find mb_gazebo)/worlds/arena_2018.world"/>  <!--house.world arena_2018.world-->
+	<arg name="world_name" default="$(find mb_gazebo)/worlds/house.world"/>  <!--house.world arena_2018.world-->
 	<arg name="rvizconfig" default="$(find mb_navigation)/rviz/multinav_debug.rviz"/>
 
   	<include file="$(find gazebo_ros)/launch/empty_world.launch">

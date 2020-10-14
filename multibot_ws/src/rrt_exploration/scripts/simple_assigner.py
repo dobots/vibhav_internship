@@ -109,10 +109,10 @@ def node():
 			else:
 				na.append(i)
 			
-			if(robots[i].getState() and not robots[i].goal_counter % 5):
-				robots[i].goal_counter = 0
-				na.append(i)
-				rospy.loginfo("Assigner_avail_bot: I am here")
+			#if(robots[i].getState() and not robots[i].goal_counter % 5):
+			#	robots[i].goal_counter = 0
+			#	na.append(i)
+			#	rospy.loginfo("Assigner_avail_bot: I am here")
 
 		rospy.loginfo("available robots: "+str(na))	
 #------------------------------------------------------------------------- 

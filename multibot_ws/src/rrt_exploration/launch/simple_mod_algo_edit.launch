@@ -24,7 +24,7 @@
   <param name="map_topic" value="/map"/> <!-- Specifies the map topic used by the filter node to delete old frontier
 points. Default value (/robot 1/map) -->
   <param name="info_radius" value="1"/>  <!-- information gain radius. Radius around the (frontier) point considered-->
-  <param name="costmap_clearing_threshold" value="50"/> <!-- Any frontier point with a cost value higher than this is invalid, default 70 -->
+  <param name="costmap_clearing_threshold" value="70"/> <!-- Any frontier point with a cost value higher than this is invalid, default 70 -->
   <param name="goals_topic" value="/detected_points"/>
   <param name="namespace" value=""/> 
   <param name="n_robots" value="1"/>

@@ -1,13 +1,13 @@
 <?xml version="1.0"?>
 <launch>
-	<node pkg="hector_mapping" type="hector_mapping" name="hector_mapping" output="screen">
+	<node pkg="hector_mapping" type="hector_mapping" name="hector_mapping_2" output="screen">
 		<!-- Frame names -->
 		<param name="map_frame" value="robot2_tf/map"/>
 		<param name="base_frame" value="robot2_tf/base_footprint"/>
 		<param name="odom_frame" value="robot2_tf/odom"/>
 
 		<!-- Topic names -->
-		<param name="scan_topic" value="scan"/>
+		<!-- <param name="scan_topic" value="scan"/> -->
 
 		<remap from="scan" to="robot2/scan"/>
 		<remap from="map" to="robot2/map"/>

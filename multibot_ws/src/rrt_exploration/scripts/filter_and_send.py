@@ -198,7 +198,8 @@ def node():
 
         # if there is only one frontier no need for clustering, i.e. centroids=frontiers
         if len(front) == 1:
-            centroids = front 
+            centroids = front
+         
 # -------------------------------------------------------------------------
 # clearing old frontiers
 

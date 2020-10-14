@@ -20,7 +20,7 @@
   <include file="$(find multi_robot)/launch/hectorslam/hector_slam2.launch" />
 
   <!-- Map Merging -->
-  <include file="$(find multi_robot)/launch/map_merge.launch" />
+  <include file="$(find multi_robot)/launch/map_merge_hector.launch" />
   <!-- <include file="$(find multi_robot)/launch/map_merge_3D.launch" /> -->
 
   <!-- RRT Exploration -->
@@ -33,7 +33,7 @@
   <group ns="robot1">
     <param name="tf_prefix" value="robot1_tf" />
     <include file="$(find multi_robot)/launch/one_robot.launch" >
-      <arg name="init_pose" value="-x 2 -y 0 -z 0" />
+      <arg name="init_pose" value="-x 0 -y 1 -z 0" />
       <arg name="robot_name"  value="robot1" />
       <remap from="map" to="robot1/map"/>
     </include>

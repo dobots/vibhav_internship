@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <launch>
-  <!-- <param name="/use_sim_time" value="true" /> -->
+  <param name="/use_sim_time" value="true" />
   <group ns="map_merge">
     <node pkg="multirobot_map_merge" type="map_merge" respawn="false" name="map_merge" output="screen">
     	<param name="robot_map_topic" value="map" />

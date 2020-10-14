@@ -5,8 +5,8 @@
 	<!-- <include file="$(find mb_control)/launch/keyboard_control.launch" /> -->
 	<!-- <include file="$(find mb_localization)/launch/amcl.launch" /> -->
 	<include file="$(find mb_gazebo)/launch/mb_arena.launch" />
-	<!-- <include file="$(find multi_robot)/launch/hectorslam/hector_slam.launch" /> -->
-	<include file="$(find mb_localization)/launch/hector_slam.launch" />
+	<include file="$(find multi_robot)/launch/hectorslam/hector_slam.launch" />
+	<!-- <include file="$(find mb_localization)/launch/hector_slam.launch" /> -->
 	<!-- <include file="$(find multi_robot)/launch/move_base_rrt.launch" /> -->
 	<include file="$(find mb_navigation)/launch/move_base.launch" />
 

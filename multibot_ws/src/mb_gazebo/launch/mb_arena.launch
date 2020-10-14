@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <launch>
-	<arg name="world_name" default="$(find mb_gazebo)/worlds/house.world"/>  <!--arena_2018.world house.world-->
+	<arg name="world_name" default="$(find mb_gazebo)/worlds/house.world"/>  <!--arena_2018.world house.world willowcomp.world-->
 	<arg name="x" default="0.0"/>
 	<arg name="y" default="0.0"/>
 	<arg name="z" default="0.0"/>
