@@ -1,45 +1,104 @@
-**Edit a file, create a new file, and clone from Bitbucket in under 2 minutes**
+# Mapping, planning and control of single and multiple robots
 
-When you're done, you can delete the content in this README and update the file with details for others getting started with your repository.
+This repository consists of the code to:-
 
-*We recommend that you open this README in another tab as you perform the tasks below. You can [watch our video](https://youtu.be/0ocf7u76WSo) for a full demo of all the steps in this tutorial. Open the video in a new tab to avoid leaving Bitbucket.*
+1. Run a single robot and explore an area using 
+	1. Hector Slam
+	2. GMapping
+	3. Cartographer
+2. Run multiple robots and explore an area using 
+	1. Hector Slam
+	2. GMapping
+	3. Cartographer
+3. Run RRT based frontier exploration with a single robot and map an area using 
+	1. Hector Slam
+	2. GMapping
+	3. Cartographer
+	
+***
+## Important Packages
+The launch files have been developed and tested on Ubuntu LTS 18.04 and ROS Melodic with Gazebo 9 and RViz. The important ROS packages that must be installed are:-
 
----
+#### Multi robot map merge [(link)](http://wiki.ros.org/multirobot_map_merge)
+This package is already present in the repository.
 
-## Edit a file
+#### Cartographer [(link)](http://wiki.ros.org/cartographer)
+An important resource on this package can be found [here](https://ouster.com/blog/building-maps-using-google-cartographer-and-the-os1-lidar-sensor/). To install this package, use:-
+```bash
+sudo apt-get install ros-melodic-cartographer ros-melodic-cartographer-ros ros-melodic-cartographer-ros-msgs ros-melodic-cartographer-rviz
+```
 
-You’ll start by editing this README file to learn how to edit a file in Bitbucket.
+#### Teleop twist keyboard [(link)](http://wiki.ros.org/teleop_twist_keyboard)
+```bash
+sudo apt-get install ros-melodic-teleop-twist-keyboard
+```
 
-1. Click **Source** on the left side.
-2. Click the README.md link from the list of files.
-3. Click the **Edit** button.
-4. Delete the following text:
-5. After making your change, click **Commit** and then **Commit** again in the dialog. The commit page will open and you’ll see the change you just made.
-6. Go back to the **Source** page.
+#### RRT Frontier Exploration [(link)](http://wiki.ros.org/rrt_exploration)
+This package is already present in the repository.
 
----
+***
+## Launch commands
+Before running any of the below commands, navigate to the run
 
-## Create a file
+```bash
+cd ~/multibot_ws
+```
+```bash
+catkin_make
+```
+```bash
+source ~/multibot_ws/devel/setup.bash
+```
 
-Next, you’ll add a new file to this repository.
+#### Single robot with controlled by a user 
+These commands launch the robot in a predefined world with different types of mapping algorithms. I order to control the robot, the teleop-twist-keyboard command needs to be launched.
 
-1. Click the **New file** button at the top of the **Source** page.
-2. Give the file a filename of **contributors.txt**.
-3. Enter your name in the empty file space.
-4. Click **Commit** and then **Commit** again in the dialog.
-5. Go back to the **Source** page.
+```bash
+roslaunch mb_navigation nav_tut_hectorslam.launch
+```
+```bash
+roslaunch mb_navigation nav_tut_gmapping.launch
+```
+```bash
+roslaunch mb_navigation nav_tut_carto.launch
+```
+```bash
+rosrun teleop_twist_keyboard teleop_twist_keyboard.py
+```
 
-Before you move on, go ahead and explore the repository. You've already seen the **Source** page, but check out the **Commits**, **Branches**, and **Settings** pages.
-
----
-
-## Clone a repository
-
-Use these steps to clone from SourceTree, our client for using the repository command-line free. Cloning allows you to work on your files locally. If you don't yet have SourceTree, [download and install first](https://www.sourcetreeapp.com/). If you prefer to clone from the command line, see [Clone a repository](https://confluence.atlassian.com/x/4whODQ).
-
-1. You’ll see the clone button under the **Source** heading. Click that button.
-2. Now click **Check out in SourceTree**. You may need to create a SourceTree account or log in.
-3. When you see the **Clone New** dialog in SourceTree, update the destination path and name if you’d like to and then click **Clone**.
-4. Open the directory you just created to see your repository’s files.
-
-Now that you're more familiar with your Bitbucket repository, go ahead and add a new file locally. You can [push your change back to Bitbucket with SourceTree](https://confluence.atlassian.com/x/iqyBMg), or you can [add, commit,](https://confluence.atlassian.com/x/8QhODQ) and [push from the command line](https://confluence.atlassian.com/x/NQ0zDQ).
+#### Autonomous Single Robot Exploration
+In this section, the commands run autonomous exploration of a single robot where goals are periodically (every 10 seconds) assigned to a single robot.
+```bash
+roslaunch mb_navigation autexpl_hector_slam.launch
+```
+```bash
+roslaunch mb_navigation autexpl_gmapping.launch
+```
+```bash
+roslaunch mb_navigation autexpl_cartographer.launch
+```
+#### Autonomous Multiple Robot Exploration
+In this section, the commands run autonomous exploration of a single robot where goals are periodically (every 10 seconds) assigned to multiple robots seperately. Thus there is a non coordinated movement of robots in the arena.
+```bash
+roslaunch multi_robot multirobot_arena_gmapping.launch
+```
+```bash
+roslaunch multi_robot multirobot_arena_hectorslam.launch
+```
+```bash
+roslaunch multi_robot multiexplrobot_carto_seperate.launch
+```
+#### Single robot RRT Frontier Exploration
+A frontier is defined as the region seperating a known from an unkown area. First, an RRT (Rapidly expanding random tree) algorithm detects points on the frontier region. The frontier regions are clustered and the filtered points are sent to an assigner node. At the assigner node the robot is assigned goal positions based on the distance of the goal from the robot and an estimated amount of unexplored area that it can discover.Finally, the robot uses a dijkstras planning method to plan its path to the goal position that is assigned to it.
+```bash
+roslaunch multi_robot nav_tut_hectorslam_single_mod_rrt.launch
+```
+```bash
+roslaunch multi_robot nav_tut_gmapping_single_mod_rrt.launch
+```
+```bash
+roslaunch multi_robot nav_tut_carto_single_mod_rrt.launch
+```
+```bash
+roslaunch multi_robot nav_tut_hectorslam_single_rrt_algo_edit.launch
+```
