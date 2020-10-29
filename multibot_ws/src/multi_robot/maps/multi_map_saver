@@ -1,4 +1,0 @@
-#!/bin/bash
-rosrun map_server map_saver -f map_robot1 map:=/robot1/map
-rosrun map_server map_saver -f map_robot2 map:=/robot2/map
-rosrun map_server map_saver -f combo_map map:=/map

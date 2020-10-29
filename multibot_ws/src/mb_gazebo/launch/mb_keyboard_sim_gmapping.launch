@@ -1,9 +1,0 @@
-<?xml version="1.0"?>
-<launch>
-	<arg name="rvizconfig" default="$(find mb_gazebo)/rviz/keyboard_visualise.rviz"/>
-	<include file="$(find mb_control)/launch/keyboard_control.launch" />
-	<include file="$(find mb_gazebo)/launch/mb_arena.launch" />
-	<include file="$(find mb_localization)/launch/gmapping.launch" />
-
-	<node name="rviz" pkg="rviz" type="rviz" args="-d $(arg rvizconfig)"/>
-</launch>
