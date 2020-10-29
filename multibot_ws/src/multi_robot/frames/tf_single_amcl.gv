@@ -1,0 +1,17 @@
+digraph G {
+"map" -> "odom"[label="Broadcaster: /amcl\nAverage rate: 15.110 Hz\nMost recent transform: 4186.711 ( -0.029 sec old)\nBuffer length: 4.699 sec\n"];
+"base_link" -> "wheel_left_link"[label="Broadcaster: /robot_state_publisher\nAverage rate: 26.056 Hz\nMost recent transform: 4186.674 ( 0.008 sec old)\nBuffer length: 4.759 sec\n"];
+"base_footprint" -> "base_link"[label="Broadcaster: /robot_state_publisher\nAverage rate: 10000.000 Hz\nMost recent transform: 0.000 ( 4186.682 sec old)\nBuffer length: 0.000 sec\n"];
+"base_link" -> "wheel_right_link"[label="Broadcaster: /robot_state_publisher\nAverage rate: 26.056 Hz\nMost recent transform: 4186.674 ( 0.008 sec old)\nBuffer length: 4.759 sec\n"];
+"base_link" -> "laser"[label="Broadcaster: /robot_state_publisher\nAverage rate: 10000.000 Hz\nMost recent transform: 0.000 ( 4186.682 sec old)\nBuffer length: 0.000 sec\n"];
+"odom" -> "base_footprint"[label="Broadcaster: /gazebo\nAverage rate: 100.211 Hz\nMost recent transform: 4186.674 ( 0.008 sec old)\nBuffer length: 4.750 sec\n"];
+"base_link" -> "camera_link"[label="Broadcaster: /robot_state_publisher\nAverage rate: 10000.000 Hz\nMost recent transform: 0.000 ( 4186.682 sec old)\nBuffer length: 0.000 sec\n"];
+"camera_link" -> "camera_lens_link"[label="Broadcaster: /robot_state_publisher\nAverage rate: 10000.000 Hz\nMost recent transform: 0.000 ( 4186.682 sec old)\nBuffer length: 0.000 sec\n"];
+"base_link" -> "caster_back_left_link"[label="Broadcaster: /robot_state_publisher\nAverage rate: 10000.000 Hz\nMost recent transform: 0.000 ( 4186.682 sec old)\nBuffer length: 0.000 sec\n"];
+"base_link" -> "caster_back_right_link"[label="Broadcaster: /robot_state_publisher\nAverage rate: 10000.000 Hz\nMost recent transform: 0.000 ( 4186.682 sec old)\nBuffer length: 0.000 sec\n"];
+"base_link" -> "imu_link"[label="Broadcaster: /robot_state_publisher\nAverage rate: 10000.000 Hz\nMost recent transform: 0.000 ( 4186.682 sec old)\nBuffer length: 0.000 sec\n"];
+edge [style=invis];
+ subgraph cluster_legend { style=bold; color=black; label ="view_frames Result";
+"Recorded at time: 4186.682"[ shape=plaintext ] ;
+ }->"map";
+}

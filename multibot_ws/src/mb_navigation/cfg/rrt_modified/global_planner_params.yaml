@@ -1,0 +1,13 @@
+GlobalPlanner:
+ 
+ default_tolerance: 0.15  #The planner will attempt to create a plan that is as close to the specified goal as possible but no further than default_tolerance away.
+ visualize_potential: true
+ use_dijkstra: true
+ use_quadratic: true
+ use_grid_path: false
+ old_navfn_behavior: false
+ #allow_unknown: false #true originally
+ cost_factor: 0.55
+ neutral_cost: 66
+ lethal_cost: 25
+

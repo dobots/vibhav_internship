@@ -1,0 +1,17 @@
+<launch >
+	<node
+		pkg="turtlesim"
+		type="turtle_teleop_key"
+		name="teleop_key"
+		required="true"
+	/>
+	<node
+		pkg="mb_control"
+		type="keyboard_control_node"
+		name="keyboard_control_node"
+	>
+		<param name="throttle_param" value ="0.5" />
+		<param name="steer_param" value ="0.5" />
+	</node>
+</launch >
+

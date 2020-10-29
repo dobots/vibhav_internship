@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<launch>
+
+<node name="cartographer_node" pkg="cartographer_ros" type="cartographer_node" args="-configuration_directory $(find mb_cartography)/config -configuration_basename summit_3D.lua" output="screen" />
+<!-- <remap from="/scan" to="/scan" /> -->
+
+<!-- <arg name="rvizconfig" default="$(find mb_navigation)/rviz/navigation_cfg.rviz"/> -->
+
+<node name="cartographer_occupancy_grid_node" pkg="cartographer_ros" type="cartographer_occupancy_grid_node" args="-resolution 0.05" />
+
+</launch>
