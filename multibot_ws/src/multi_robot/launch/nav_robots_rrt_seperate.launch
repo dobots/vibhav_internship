@@ -27,7 +27,7 @@
   <include file="$(find multi_robot)/launch/rrtexpl_multibot_seperate.launch" />
 
   <!-- robot description -->
-  <param name="robot_description" command="$(find xacro)/xacro --inorder $(find mb_description)/urdf/turtlebot3_waffle_base.urdf.xacro" />
+  <param name="robot_description" command="$(find xacro)/xacro --inorder $(find tb3_description)/urdf/turtlebot3_waffle_base.urdf.xacro" />
   
   <!-- BEGIN ROBOT 1-->
   <group ns="robot_1">
