@@ -1,16 +1,11 @@
 <?xml version="1.0"?>
 <launch>
-	<!-- <arg name="rvizconfig" default="$(find mb_navigation)/rviz/navigation_cfg.rviz"/> -->
-	<arg name="rvizconfig" default="$(find multi_robot)/rviz/simple.rviz"/>
-	<!-- <include file="$(find mb_control)/launch/keyboard_control.launch" /> -->
-	<!-- <include file="$(find mb_localization)/launch/amcl.launch" /> -->
+	<arg name="rvizconfig" default="$(find multi_robot)/rviz/simple.rviz"/>->
 	<include file="$(find mb_gazebo)/launch/mb_arena.launch" />
 	<include file="$(find multi_robot)/launch/gmapping/gmapping.launch" />
 	<include file="$(find multi_robot)/launch/move_base.launch" />
 
 	<include file="$(find rrt_exploration)/launch/simple.launch" />
-
-	<!-- <node pkg="simple_navigation_goals" type="simple_navigation_goals_periodic" name="simple_navigation_goals_periodic" output="screen" />	-->
 
 	<node name="rviz" pkg="rviz" type="rviz" args="-d $(arg rvizconfig)"/>
 </launch>

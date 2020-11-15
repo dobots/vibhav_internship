@@ -82,12 +82,6 @@ In this section, the commands run autonomous exploration of a single robot where
 ```bash
 roslaunch multi_robot multirobot_arena_gmapping.launch
 ```
-```bash
-roslaunch multi_robot multirobot_arena_hectorslam.launch
-```
-```bash
-roslaunch multi_robot multiexplrobot_carto_seperate.launch
-```
 #### Single robot RRT Frontier Exploration
 A frontier is defined as the region seperating a known from an unkown area. First, an RRT (Rapidly expanding random tree) algorithm detects points on the frontier region. The frontier regions are clustered and the filtered points are sent to an assigner node. At the assigner node the robot is assigned goal positions based on the distance of the goal from the robot and an estimated amount of unexplored area that it can discover.Finally, the robot uses a dijkstras planning method to plan its path to the goal position that is assigned to it.
 ```bash
@@ -95,9 +89,6 @@ roslaunch multi_robot nav_tut_hectorslam_single_mod_rrt.launch
 ```
 ```bash
 roslaunch multi_robot nav_tut_gmapping_single_mod_rrt.launch
-```
-```bash
-roslaunch multi_robot nav_tut_carto_single_mod_rrt.launch
 ```
 ```bash
 roslaunch multi_robot nav_tut_hectorslam_single_rrt_algo_edit.launch

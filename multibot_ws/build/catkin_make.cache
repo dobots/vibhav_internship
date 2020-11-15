@@ -1,0 +1,2 @@
+m-explore/explore:m-explore/map_merge:mb_cartography:mb_control:mb_description:mb_gazebo:mb_localization:mb_navigation:multi_robot:rrt_exploration:simple_navigation_goals:tb3_description
+-DCATKIN_DEVEL_PREFIX=/home/vibhav/vibhav_internship/multibot_ws/devel -DCMAKE_INSTALL_PREFIX=/home/vibhav/vibhav_internship/multibot_ws/install -G Unix Makefiles

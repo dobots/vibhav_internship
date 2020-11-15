@@ -1,0 +1,8 @@
+prefix=/home/vibhav/vibhav_internship/multibot_ws/install
+
+Name: mb_cartography
+Description: Description of mb_cartography
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

@@ -1,0 +1,8 @@
+prefix=/home/vibhav/vibhav_internship/multibot_ws/devel
+
+Name: mb_control
+Description: Description of mb_control
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
