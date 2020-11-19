@@ -1,13 +1,9 @@
 <?xml version="1.0"?>
 <launch>
-	<!-- <arg name="rvizconfig" default="$(find mb_navigation)/rviz/navigation_cfg.rviz"/> -->
 	<arg name="rvizconfig" default="$(find multi_robot)/rviz/simple.rviz"/>
 	<include file="$(find mb_gazebo)/launch/mb_arena.launch" />
-	<!-- <include file="$(find multi_robot)/launch/hectorslam/hector_slam.launch" /> -->
-	<include file="$(find mb_localization)/launch/hector_slam.launch" />
-	<!-- <include file="$(find multi_robot)/launch/move_base_rrt.launch" /> -->
+	<include file="$(find multi_robot)/launch/hectorslam/hector_slam.launch" />
 	<include file="$(find mb_navigation)/launch/move_base.launch" />
-
 	<include file="$(find rrt_exploration)/launch/simple_mod.launch" />
 
 	<node name="rviz" pkg="rviz" type="rviz" args="-d $(arg rvizconfig)"/>

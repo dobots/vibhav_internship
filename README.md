@@ -83,13 +83,29 @@ In this section, the commands run autonomous exploration of a single robot where
 roslaunch multi_robot multirobot_arena_gmapping.launch
 ```
 #### Single robot RRT Frontier Exploration
-A frontier is defined as the region seperating a known from an unkown area. First, an RRT (Rapidly expanding random tree) algorithm detects points on the frontier region. The frontier regions are clustered and the filtered points are sent to an assigner node. At the assigner node the robot is assigned goal positions based on the distance of the goal from the robot and an estimated amount of unexplored area that it can discover.Finally, the robot uses a dijkstras planning method to plan its path to the goal position that is assigned to it.
+A frontier is defined as the region seperating a known from an unkown area. First, an RRT (Rapidly expanding random tree) algorithm detects points on the frontier region. The frontier regions are clustered and the filtered points are sent to an assigner node. At the assigner node the robot is assigned goal positions based on the distance of the goal from the robot and an estimated amount of unexplored area that it can discover. Finally, the robot uses a dijkstras planning method to plan its path to the goal position that is assigned to it.
+
+The original algorithm however does not take care of many corner cases and therefore the following temporary modifications have been made:-
+1. Frontiers are cleared up before being published on the map
+2. A 5 cycle loop cunter is given to reset the goals
+3. A goal is given 0.5m lesser is both X and Y axis from the assigned goal. 
+
+To launch the original RRT exploration algorithm along with GMapping, run:
 ```bash
-roslaunch multi_robot nav_tut_hectorslam_single_mod_rrt.launch
+roslaunch multi_robot nav_tut_gmapping_single_rrt.launch
 ```
+
+To launch the RRT exploration algorithm with GMapping and the first modification, run:
 ```bash
 roslaunch multi_robot nav_tut_gmapping_single_mod_rrt.launch
 ```
+
+To launch the RRT exploration algorithm with Hector SLAM and with the first modification, run:
+```bash
+roslaunch multi_robot nav_tut_hectorslam_single_mod_rrt.launch
+```
+
+To launch the RRT exploration algorithm with Hector SLAM and with the first, second and third modification, run:
 ```bash
 roslaunch multi_robot nav_tut_hectorslam_single_rrt_algo_edit.launch
 ```

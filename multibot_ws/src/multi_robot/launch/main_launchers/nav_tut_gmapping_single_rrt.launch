@@ -1,11 +1,9 @@
 <?xml version="1.0"?>
 <launch>
-	<arg name="rvizconfig" default="$(find multi_robot)/rviz/simple.rviz"/>->
+	<arg name="rvizconfig" default="$(find multi_robot)/rviz/simple.rviz"/>
 	<include file="$(find mb_gazebo)/launch/mb_arena.launch" />
 	<include file="$(find multi_robot)/launch/gmapping/gmapping.launch" />
 	<include file="$(find multi_robot)/launch/move_base.launch" />
-
 	<include file="$(find rrt_exploration)/launch/simple.launch" />
-
 	<node name="rviz" pkg="rviz" type="rviz" args="-d $(arg rvizconfig)"/>
 </launch>
